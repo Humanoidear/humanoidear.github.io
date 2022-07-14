@@ -1,0 +1,746 @@
+@font-face {
+    font-family: GintoBold;
+    src: url(Ginto\ Bold.ttf);
+  }
+
+@font-face {
+    font-family: Ginto;
+    src: url(Ginto\ Regular.ttf);
+}
+
+@font-face {
+    font-family: Nintendo;
+    src: url(Pretendo.ttf);
+}
+
+@font-face {
+    font-family: Arcade;
+    src: url(ARCADECLASSIC.ttf);
+}
+
+@font-face {
+    font-family: Wii;
+    src: url(contb.ttf);
+}
+
+@font-face {
+    font-family: Mario;
+    src: url(SuperMario256.ttf);
+}
+
+@font-face {
+    font-family: Cursives;
+    src: url(ThirstyScriptRegular.ttf);
+}
+
+html{
+    background: linear-gradient(34deg, rgba(2,0,36,1) 0%, rgba(0,21,36,1) 0%, rgba(1,32,55,1) 100%);
+    overflow-x:hidden;
+}
+
+#particles-js{
+    background-color:none; 
+    height: 98.5vh;
+    width: 99vw;
+    overflow: hidden;
+   position:fixed;
+   z-index:0;
+}
+
+.Intr1{
+    position:absolute;
+    top:0%;
+    left: 25%;
+    font-size: 50px;
+    color: #ffffff;
+    font-family:GintoBold;
+    animation-name:changefont;
+    animation-iteration-count: infinite;
+    animation-duration:15s;
+    transition:0.2s;
+    
+}
+
+@keyframes changefonts{
+    0% {font-family:Nintendo; transform:rotate(0deg);}
+    25% {font-family:Arcade; transform:rotate(10deg);}
+    50% {font-family:Wii; transform:rotate(-10deg);}
+    75% {font-family:Mario; transform:rotate(-5deg);}
+    100% {font-family:Nintendo; transform:rotate(0deg);}
+}
+
+.Intr2{
+    position:absolute;
+    top:20%;
+    left: 25%;
+    font-size: 50px;
+    color: #ffffff;
+    font-family:GintoBold;
+}
+
+#Face{
+    height:20%;
+    width: 20%;
+    position: relative;
+}
+
+#introduction{
+    top: 35%;
+    left: 10%;
+    position: fixed;
+}
+
+#rest{
+    top: 35%;
+    left: 0%;
+    width: 90%;
+    height:35%;
+    position: absolute;
+}
+
+
+#Socials{
+    position: absolute;
+    left: 25%;
+    top:75%;
+
+}
+
+#githublogo{
+    margin-left:20px;
+}
+
+a:hover{
+    box-shadow: 0px 0px 20px #ffffff;
+}
+
+#discordlogo{
+    margin-left:10px;
+}
+
+#twitterlogo{
+    margin-left:15px;
+}
+
+#redditlogo{
+    margin-left:10px;
+}
+
+#branding{
+    z-index:10000000000000000;
+    right:0;
+}
+
+div{
+    border: 5px;
+    border-color: red;
+    background-color:none;
+}
+
+.sus{
+    width:80px;
+    height:70px;
+    background-color: none;
+    position:absolute;
+}
+
+.sus2{
+    width:80px;
+    height:70px;
+    background-color: none;
+    position:absolute;
+    left:130px;
+}
+
+.sus3{
+    width:80px;
+    height:70px;
+    background-color: none;
+    position:absolute;
+    left:260px;
+}
+
+.sus4{
+    width:80px;
+    height:70px;
+    background-color: none;
+    position:absolute;
+    left:370px;
+}
+
+#branding{
+    top: 2%;
+    right: 2%;
+    position: fixed;
+}
+
+.moredown{
+    position:absolute;
+    bottom:0;
+    left:10%;
+    width:90%;
+    z-index:1;
+}
+
+.textdown{
+    float:right;
+    font-family:ginto;
+    color: #ffffff;
+    margin-right:10%;
+    margin-bottom:2%;
+}
+
+.downanim{
+    animation-name: oscilating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position:relative;
+}
+
+@keyframes oscilating{
+    0% {top:0px;}
+    50% {top:20px;}
+    100% {top:0px;}
+}
+
+.gradient{
+    width:100%;
+    height:20%;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,21,36,1) 0%, rgba(0,212,255,0) 100%);;
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:0;
+}
+
+.scroller.sticky{
+    left:-3%;
+    bottom:63%;
+    width:100%;
+    position:fixed;
+    z-index:1000000000000;
+    transition:1s;
+}
+
+.scroller{
+    left:-5%;
+    bottom:63%;
+    width:100%;
+    position:fixed;
+    z-index:1000000000000;
+    transition:1s;
+}
+
+.textinfos{
+    right:0;
+    position:absolute;
+    text-align:right;
+    font-family:ginto;
+    color: #ffffff;
+    font-size:23px;
+}
+
+.scrollerpoints{
+    right:-20px;
+    top:40px;
+    position:absolute;
+}
+
+.btn{
+    left:110%;
+    top:12%;
+    width:20px;
+    height:20px;
+    background-color:white;
+    border-radius:20px;
+    position:absolute;
+    transition:0.2s;
+    border: 5px solid #012037;
+    outline: 5px solid white;
+}
+
+.btn.sticky{
+    left:110%;
+    top:12%;
+    width:20px;
+    height:20px;
+    background-color:#012037;
+    border-radius:20px;
+    position:absolute;
+    transition:0.2s;
+    border: 5px solid white;
+    outline: 5px solid #012037;
+}
+
+.btn:hover.sticky{
+    width:15px;
+    height:15px;
+    background-color:#012037;
+    border-radius:20px;
+    position:absolute;
+    transition: 0.3s;
+    border: 7px solid white;
+    outline: 5px solid #012037;
+}
+
+.btn2{
+    left:110%;
+    width:2px;
+    top:120px;
+    height:2px;
+    background-color:#012037;
+    border-radius:20px;
+    position:absolute;
+    transition:0.2s;
+    border: 14px solid #012037;
+    outline: 5px solid white;
+}
+
+.btn2.sticky{
+    left:110%;
+    width:2px;
+    top:120px;
+    height:2px;
+    background-color:white;
+    border-radius:20px;
+    position:absolute;
+    transition:0.2s;
+    border: 14px solid white;
+    outline: 5px solid #012037;
+}
+
+#aaa.sticky{
+    left:110%;
+    width:2px;
+    top:120px;
+    height:2px;
+    background-color:white;
+    border-radius:20px;
+    position:absolute;
+    transition:0.2s;
+    border: 14px solid white;
+    outline: 5px solid #012037;
+}
+
+#bbb.sticky{
+    left:110%;
+    width:2px;
+    top:120px;
+    height:2px;
+    background-color:white;
+    border-radius:20px;
+    position:absolute;
+    transition:0.2s;
+    border: 14px solid white;
+    outline: 5px solid #012037;
+}
+
+.btn:hover{
+    width:15px;
+    height:15px;
+    background-color:white;
+    border-radius:20px;
+    position:absolute;
+    transition: 0.3s;
+    border: 7px solid #012037;
+    outline: 5px solid white;
+}
+
+ .active:hover + .btn{
+    width:15px;
+    height:15px;
+    background-color:white;
+    border-radius:20px;
+    position:absolute;
+    transition: 0.3s;
+    border: 7px solid #012037;
+    outline: 5px solid white;
+}
+
+.textscroll.sticky{
+    display:none;
+}
+
+.inactive:hover + .btn2{
+    width:15px;
+    height:15px;
+    background-color:white;
+    border-radius:20px;
+    position:absolute;
+    transition: 0.3s;
+    border: 7px solid #012037;
+    outline: 5px solid white;
+}
+
+.active:active + .btn{
+    width:30px;
+    height:30px;
+    background-color:#ffecd1;
+    border-radius:20px;
+    position:absolute;
+    transition: 0.1s;
+    border: 0px solid #012037;
+    outline: 0px solid white;
+}
+
+.inactive:active + .btn2{
+    width:30px;
+    height:30px;
+    background-color:#ffecd1;
+    border-radius:20px;
+    position:absolute;
+    transition: 0.1s;
+    border: 0px solid #012037;
+    outline: 0px solid white;
+}
+
+.active:hover .btn{
+    width:15px;
+    height:15px;
+    background-color:white;
+    border-radius:20px;
+    position:absolute;
+    transition: 0.3s;
+    border: 7px solid #012037;
+    outline: 5px solid white;
+}
+
+.btn:active{
+    width:30px;
+    height:30px;
+    background-color:#ffecd1;
+    border-radius:20px;
+    position:absolute;
+    transition: 0.1s;
+    border: 0px solid #012037;
+    outline: 0px solid white;
+}
+
+.btn:active.sticky{
+    width:30px;
+    height:30px;
+    background-color:#ffecd1;
+    border-radius:20px;
+    position:absolute;
+    transition: 0.1s;
+    border: 0px solid #012037;
+    outline: 0px solid white;
+}
+
+.btn2:hover{
+    width:15px;
+    height:15px;
+    background-color:white;
+    border-radius:20px;
+    position:absolute;
+    transition: 0.3s;
+    border: 7px solid #012037;
+    outline: 5px solid white;
+}
+
+.btn2:hover.sticky{
+    width:15px;
+    height:15px;
+    background-color:#012037;
+    border-radius:20px;
+    position:absolute;
+    transition: 0.3s;
+    border: 7px solid white;
+    outline: 5px solid #012037;
+}
+
+#aaa:hover.sticky{
+    width:15px;
+    height:15px;
+    background-color:#012037;
+    border-radius:20px;
+    position:absolute;
+    transition: 0.3s;
+    border: 7px solid white;
+    outline: 5px solid #012037;
+}
+
+#bbb:hover.sticky{
+    width:15px;
+    height:15px;
+    background-color:#012037;
+    border-radius:20px;
+    position:absolute;
+    transition: 0.3s;
+    border: 7px solid white;
+    outline: 5px solid #012037;
+}
+
+.btn2:active.sticky{
+    width:30px;
+    height:30px;
+    background-color:#ffecd1;
+    border-radius:20px;
+    position:absolute;
+    transition: 0.1s;
+    border: 0px solid #012037;
+    outline: 0px solid white;
+}
+
+#aaa:active.sticky{
+    width:30px;
+    height:30px;
+    background-color:#ffecd1;
+    border-radius:20px;
+    position:absolute;
+    transition: 0.1s;
+    border: 0px solid #012037;
+    outline: 0px solid white;
+}
+
+#bbb:active.sticky{
+    width:30px;
+    height:30px;
+    background-color:#ffecd1;
+    border-radius:20px;
+    position:absolute;
+    transition: 0.1s;
+    border: 0px solid #012037;
+    outline: 0px solid white;
+}
+
+.btn2:active{
+    width:30px;
+    height:30px;
+    background-color:#ffecd1;
+    border-radius:20px;
+    position:absolute;
+    transition: 0.1s;
+    border: 0px solid #012037;
+    outline: 0px solid white;
+}
+
+.active{
+    font-family:gintobold;
+}
+
+#ccc.sticky{
+    margin-right:-300px;
+    transition:0.5s;
+}
+
+#ccc{
+    transition:0.5s;
+}
+
+#ddd.sticky{
+    margin-right:-300px;
+    transition:0.5s;
+}
+
+#ddd{
+    transition:0.5s;
+}
+
+#eee.sticky{
+    margin-right:-300px;
+    transition:0.5s;
+}
+
+#eee{
+    transition:0.5s;
+}
+
+#fff.sticky{
+    margin-right:-300px;
+    transition:0.5s;
+}
+
+#fff{
+    transition:0.5s;
+}
+
+.downloadcv{
+    right:-80px;
+    position:absolute;
+    top:350px;
+    border-radius:50px;
+    border:10px solid white;
+    padding-left:60px;
+    padding-right:60px;
+    box-shadow: 0px 0px 10px white, inset 0px 0px 10px white;
+    text-align: right;
+    font-family:gintobold;
+    color: #ffffff;
+    font-size:16px;
+    transition:0.5s;
+    animation-name:none;
+
+}
+
+.downloadcv.sticky{
+    right:-600px;
+    position:absolute;
+    top:350px;
+    border-radius:50px;
+    border:10px solid white;
+    padding-left:60px;
+    padding-right:60px;
+    box-shadow: 0px 0px 10px white, inset 0px 0px 10px white;
+    text-align: right;
+    font-family:gintobold;
+    color: #ffffff;
+    font-size:16px;
+    transition:0.5s;
+    animation-name:none;
+
+}
+
+@keyframes pulsate{
+    0% {text-shadow:0 0 15px #fff; }
+    50% {text-shadow:0 0 10px #fff; }
+    75% {text-shadow:0 0 20px #fff; }
+    100% {text-shadow:0 0 15px #fff; }
+}
+
+.downloadcv:hover{
+    right:-80px;
+    position:absolute;
+    top:340px;
+    border-radius:50px;
+    border:10px solid white;
+    padding-left:60px;
+    padding-right:60px;
+    box-shadow: 0px 0px 20px white, inset 0px 0px 10px white;
+    text-align: right;
+    font-family:gintobold;
+    color: #ffffff;
+    font-size:16px;
+    transition:0.5s;
+    animation-name:none;
+
+}
+
+.cvicon{
+    float:left;
+    position:absolute;
+
+}
+
+.whitedown{
+    width:100%;
+    bottom:0;
+    margin-bottom:-50px;
+    position:absolute;
+    left:0;
+    background-color:#ffffff;
+    height:5%;
+    border-radius:50px;
+}
+
+.cover{
+    width:100%;
+    background-color:white;
+    height:5000px; 
+    top:50%;
+    position:absolute;
+    margin-bottom:300px;
+}
+
+.accolades{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0px;
+
+}
+
+.acc{
+    width:25%;
+    height:15%;
+    background-color:#001e34;
+    position:absolute;
+    bottom:30px;
+    left:-700px;
+    z-index:0;
+    border-radius:20px;
+    animation-name:scrollover;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    overflow:hidden;
+    border:8px solid white;
+}
+
+.acc2{
+    width:25%;
+    height:15%;
+    background-color: #001e34;
+    position:absolute;
+    bottom:30px;
+    left:-700px;
+    z-index:0;
+    border-radius:20px;
+    animation-name:scrollover;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    animation-timing-function: linear;
+    overflow:hidden;
+    border:8px solid white;
+}
+
+.acc3{
+    width:25%;
+    height:15%;
+    background-color:#001e34;
+    position:absolute;
+    bottom:30px;
+    left:-700px;
+    z-index:0;
+    border-radius:20px;
+    animation-name:scrollover;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 8s;
+    overflow:hidden;
+    border:8px solid white;
+}
+
+.acc4{
+    width:25%;
+    height:15%;
+    background-color:#001e34;
+    position:absolute;
+    bottom:30px;
+    left:-700px;
+    z-index:0;
+    border-radius:20px;
+    animation-name:scrollover;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 12s;
+    overflow:hidden;
+    border:8px solid white;
+}
+
+.acc5{
+    width:25%;
+    height:15%;
+    background-color:#001e34;
+    position:absolute;
+    bottom:30px;
+    left:-700px;
+    z-index:0;
+    border-radius:20px;
+    animation-name:scrollover;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 16s;
+    overflow:hidden;
+    border:8px solid white;
+}
+
+
+@keyframes scrollover{
+    0% {margin-left:-5%;}
+    100% {left:100%;}
+}
