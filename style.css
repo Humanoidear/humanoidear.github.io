@@ -42,7 +42,7 @@ a{
     z-index:1000000000000000000000000000000000;
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1800px) {
     .active {
       display:none;
     }
@@ -799,6 +799,12 @@ div{
     100% {left:2500px;}
 }
 
+@media only screen and (max-height: 1000px) {
+    .accolades{
+        display:none;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
 #introduction{
     top:10%;
@@ -827,8 +833,7 @@ div{
     top:60vw;
 }
 .hrino{
-    top:700px;
-    position:absolute;
+    display:none;
 }
 
     #Socials {
