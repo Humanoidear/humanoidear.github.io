@@ -75,7 +75,6 @@ a{
 
 .Intr1{
     position:absolute;
-    top:0%;
     left: 25%;
     font-size: 50px;
     color: #ffffff;
@@ -105,9 +104,15 @@ a{
 }
 
 #Face{
-    height:20%;
-    width: 20%;
-    position: relative;
+    width: 25%;
+    position: absolute;
+}
+
+#Text{
+    width:100%;
+
+    position: fixed;
+    z-index:1;
 }
 
 #introduction{
@@ -128,8 +133,8 @@ a{
 
 #Socials{
     position: absolute;
-    left: 25%;
-    top:250px;
+    left:25%;
+    top:230px;
 
 }
 
