@@ -42,7 +42,7 @@ a{
     z-index:1000000000000000000000000000000000;
 }
 
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 1900px) {
     .active {
       display:none;
     }
