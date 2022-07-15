@@ -53,6 +53,11 @@ window.addEventListener("scroll", function() {
     header.classList.toggle("sticky", window.scrollY > 0);
 })
 
+window.addEventListener("scroll", function() {
+    var header = document.querySelector("::-webkit-scrollbar-track");
+    header.classList.toggle("sticky", window.scrollY > 0);
+})
+
 
 var scene = document.getElementById('reddit');
 var parallaxInstance = new Parallax(scene);

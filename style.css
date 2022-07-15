@@ -38,6 +38,32 @@ html{
     overflow-x:hidden;
 }
 
+a{
+    z-index:1000000000000000000000000000000000;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    margin-right:5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #012037;
+  }
+
+  ::-webkit-scrollbar-track.sticky {
+    background: #ffffff;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius:5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffecd1;
+  }
+
 #particles-js{
     background-color:none; 
     height: 98.5vh;
@@ -71,7 +97,7 @@ html{
 
 .Intr2{
     position:absolute;
-    top:20%;
+    top:60px;
     left: 25%;
     font-size: 50px;
     color: #ffffff;
@@ -88,6 +114,7 @@ html{
     top: 35%;
     left: 10%;
     position: fixed;
+    z-index:1;
 }
 
 #rest{
@@ -102,7 +129,7 @@ html{
 #Socials{
     position: absolute;
     left: 25%;
-    top:75%;
+    top:250px;
 
 }
 
@@ -187,7 +214,7 @@ div{
     font-family:ginto;
     color: #ffffff;
     margin-right:10%;
-    margin-bottom:2%;
+    margin-bottom:50px;
 }
 
 .downanim{
@@ -214,7 +241,7 @@ div{
 }
 
 .scroller.sticky{
-    left:-3%;
+    left:50px;
     bottom:63%;
     width:100%;
     position:fixed;
@@ -223,21 +250,26 @@ div{
 }
 
 .scroller{
-    left:-5%;
-    bottom:63%;
+    left:0px;
+    top:0;
+    transform:translate(0,0%);
+    height:100%;
     width:100%;
     position:fixed;
-    z-index:1000000000000;
+    z-index:0;
     transition:1s;
+    background-color:none;
 }
 
 .textinfos{
-    right:0;
+    right:100px;
     position:absolute;
     text-align:right;
     font-family:ginto;
     color: #ffffff;
     font-size:23px;
+    top:35%;
+    left:px;
 }
 
 .scrollerpoints{
@@ -558,7 +590,6 @@ div{
 .downloadcv{
     right:-80px;
     position:absolute;
-    top:350px;
     border-radius:50px;
     border:10px solid white;
     padding-left:60px;
@@ -631,6 +662,7 @@ div{
     background-color:#ffffff;
     height:5%;
     border-radius:50px;
+    z-index:10000;
 }
 
 .cover{
@@ -651,8 +683,8 @@ div{
 }
 
 .acc{
-    width:25%;
-    height:15%;
+    width:600px;
+    height:190px;
     background-color:#001e34;
     position:absolute;
     bottom:30px;
@@ -668,8 +700,8 @@ div{
 }
 
 .acc2{
-    width:25%;
-    height:15%;
+    width:600px;
+    height:190px;
     background-color: #001e34;
     position:absolute;
     bottom:30px;
@@ -686,8 +718,8 @@ div{
 }
 
 .acc3{
-    width:25%;
-    height:15%;
+    width:600px;
+    height:190px;
     background-color:#001e34;
     position:absolute;
     bottom:30px;
@@ -704,8 +736,8 @@ div{
 }
 
 .acc4{
-    width:25%;
-    height:15%;
+    width:600px;
+    height:190px;
     background-color:#001e34;
     position:absolute;
     bottom:30px;
@@ -722,8 +754,8 @@ div{
 }
 
 .acc5{
-    width:25%;
-    height:15%;
+    width:600px;
+    height:190px;
     background-color:#001e34;
     position:absolute;
     bottom:30px;
@@ -742,5 +774,5 @@ div{
 
 @keyframes scrollover{
     0% {margin-left:-5%;}
-    100% {left:100%;}
+    100% {left:2500px;}
 }
