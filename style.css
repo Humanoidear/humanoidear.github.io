@@ -42,6 +42,23 @@ a{
     z-index:1000000000000000000000000000000000;
 }
 
+@media only screen and (max-width: 1600px) {
+    .active {
+      display:none;
+    }
+    .inactive {
+        display:none;
+      }
+    .downloadcv{
+        display:none;
+    }
+    .scroller{
+        left:-50px;
+        position:absolute;
+    }
+  }
+
+ 
 ::-webkit-scrollbar {
     width: 10px;
     margin-right:5px;
@@ -285,7 +302,7 @@ div{
 
 .btn{
     left:110%;
-    top:12%;
+    top:40px;
     width:20px;
     height:20px;
     background-color:white;
@@ -298,7 +315,7 @@ div{
 
 .btn.sticky{
     left:110%;
-    top:12%;
+    top:40px;
     width:20px;
     height:20px;
     background-color:#012037;
@@ -781,3 +798,41 @@ div{
     0% {margin-left:-5%;}
     100% {left:2500px;}
 }
+
+@media only screen and (max-width: 1200px) {
+#introduction{
+    top:10%;
+}
+
+#Face{
+    width:40%;
+}
+
+#sussy{
+    width:40%;
+}
+
+.Intr1{
+    top:40vw;
+    left:5%;
+    position:absolute;
+}
+.Intr2{
+    top:45vw;
+    left:5%;
+    position:absolute;
+    margin-right:200px;
+}
+#Socials{
+    top:60vw;
+}
+.hrino{
+    top:700px;
+    position:absolute;
+}
+
+    #Socials {
+      position:absolute;
+      left:5%;
+    }
+  }
