@@ -148,10 +148,11 @@ a{
 }
 
 
-#Socials{
+.Socials{
     position: absolute;
     left:25%;
     top:230px;
+    width:80%;
 
 }
 
@@ -811,33 +812,57 @@ div{
 }
 
 #Face{
-    width:40%;
+    width:40vh;
 }
 
 #sussy{
-    width:40%;
+    width:40vh;
 }
 
 .Intr1{
-    top:40vw;
-    left:5%;
+    top:45vh;
+    left:0%;
     position:absolute;
+    font-size:50px;
 }
 .Intr2{
-    top:45vw;
-    left:5%;
+    margin-top:60px;
+    top:50vh;
+    left:0%;
     position:absolute;
-    margin-right:200px;
+    margin-right:50px;
+    font-size:50px;
+}
+.scroller{
+    display:none;
 }
 #Socials{
-    top:60vw;
+    top:0vh;
+    width:10%;
+    position:fixed;
 }
 .hrino{
     display:none;
 }
+.textdown{
+    display:none;
+}
+.downanim{
+    right:-75vw;
+    margin-bottom:50px;
+    position:absolutfixede;
+}
 
-    #Socials {
+    .Socials {
       position:absolute;
-      left:5%;
-    }
+      top:50%;
+      left:66vw;
+      width:0%;
+    }  
+    
+    ::-webkit-scrollbar{
+    display:none;
   }
+  }
+
+
