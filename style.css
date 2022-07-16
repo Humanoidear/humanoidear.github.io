@@ -797,7 +797,7 @@ div{
 
 @keyframes scrollover{
     0% {margin-left:-5%;}
-    100% {left:2500px;}
+    100% {left:2600px;}
 }
 
 @media only screen and (max-height: 1000px) {
@@ -806,7 +806,7 @@ div{
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1080px) {
 #introduction{
     top:10%;
 }
@@ -848,15 +848,15 @@ div{
     display:none;
 }
 .downanim{
-    right:-75vw;
+    right:-37vw;
     margin-bottom:50px;
-    position:absolutfixede;
+    opacity:50%;
 }
 
     .Socials {
       position:absolute;
       top:50%;
-      left:66vw;
+      left:76vw;
       width:0%;
     }  
     
