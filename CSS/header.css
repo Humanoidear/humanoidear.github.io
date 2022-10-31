@@ -1,0 +1,121 @@
+        /* The header and its behavior.*/
+        
+        header {
+            position: absolute;
+            top: 2%;
+            width:500px;
+            left:-30px;
+            padding: 30px 100px;
+            transform: translate(-50%,0);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100000000000000000000000000;
+            position: fixed;
+            transition: 0.6s;
+        }
+        
+        .active {
+            font-size: 15px;
+            font-family: gintobold;
+            padding: 10px;
+            color: rgb(255, 255, 255);
+            border-radius: 60px;
+            transition: 0.5s;
+            z-index: 10000000000000000000000000;
+            border-style: solid;
+            border-color: rgb(255, 255, 255);
+        }
+        
+        header.sticky {
+            left:0;
+            transform:translate(20%,0);
+            z-index: 100000000000000000000000;
+        }
+        
+        .logo {
+            color: black;
+            top:40px;
+            position:absolute;
+            transition: 0.5s;
+        }
+        
+        header .logo {
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 2em;
+            position:absolute;
+            left:-62%;
+            font-family: gintobold;
+            letter-spacing: 1px;
+            margin-left: 70px;
+            margin-top: -30px;
+        }
+        
+        header .desc {
+            font-weight: 20px;
+            text-decoration: none;
+            position: absolute;
+            font-family: ginto;
+            letter-spacing: 1px;
+            margin-top: 40px;
+            margin-left: 70px;
+            font-size: 20px;
+        }
+        
+        header ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position:absolute;
+            top:0%;
+            left: 5%;
+            transform: translate(-50%);
+            z-index: 100000000000000000000;
+        }
+        
+        header ul li {
+            list-style: none;
+            margin-left: 10px;
+            margin-right: 10px;
+            z-index: 100000000000000000000;
+        }
+        
+        header ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-family: ginto;
+            border-radius: 20px;
+            z-index: 1000000000000000000;
+            padding: 10px;
+            border-radius: 60px;
+            font-size: 15px;
+        }
+        
+        header ul li a:hover {
+            background: #fff;
+            font-size: 15px;
+            font-family: gintobold;
+            padding: 10px;
+            color: rgb(30, 12, 60);
+            border-radius: 60px;
+            transition: 0.5s;
+            z-index: 100000000000000000;
+        }
+        
+        header ul li a:not(:hover) {
+            transition: 0.5s;
+        }
+        
+        ul {
+            backdrop-filter: blur(20px);
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            border-radius: 50px;
+            margin-right: 20px;
+            z-index: 100000000000000000000;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0px;
+          }

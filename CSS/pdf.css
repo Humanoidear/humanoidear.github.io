@@ -1,0 +1,171 @@
+/* Stuff regarding the pdf and its viewer in the "recommendeds" section*/
+
+.recfull {
+    position: absolute;
+}
+
+.recsec {
+    position: absolute;
+    margin-top: -800px;
+    margin-left: 150px;
+    z-index: 0;
+    margin-right: 150px;
+}
+
+.pdf1 {
+    position: absolute;
+    animation-duration: 0.5s;
+    margin-top: -637px;
+    margin-left: 3px;
+    border-radius: 20px;
+    height: 900px;
+    width: 400px;
+    z-index: 1000000;
+    transform: scale(110%);
+}
+
+.pdf1:not(:hover) {
+    display: none;
+}
+
+.pdf1:hover {
+    animation-name: blurin;
+    animation-duration: 0.5s;
+}
+
+.pdfhelp:hover+.pdf1 {
+    display: block;
+    transition: 0.5s;
+}
+
+.pdf2 {
+    position: absolute;
+    animation-duration: 0.5s;
+    margin-top: -637px;
+    margin-left: 3px;
+    border-radius: 20px;
+    height: 900px;
+    width: 400px;
+    z-index: 1000000;
+    transform: scale(110%);
+}
+
+.pdf2:not(:hover) {
+    display: none;
+}
+
+.pdf2:hover {
+    animation-name: blurin;
+    animation-duration: 0.5s;
+}
+
+.pdfhelp:hover+.pdf2 {
+    display: block;
+    transition: 0.5s;
+}
+
+.pdf3 {
+    position: absolute;
+    animation-duration: 0.5s;
+    margin-top: -637px;
+    margin-left: 3px;
+    border-radius: 20px;
+    height: 900px;
+    width: 400px;
+    z-index: 1000000;
+    transform: scale(110%);
+}
+
+.pdf3:not(:hover) {
+    display: none;
+}
+
+.pdf3:hover {
+    animation-name: blurin;
+    animation-duration: 0.5s;
+}
+
+.pdfhelp:hover+.pdf3 {
+    display: block;
+    transition: 0.5s;
+}
+
+.pdf4 {
+    position: absolute;
+    animation-duration: 0.5s;
+    margin-top: -637px;
+    margin-left: 3px;
+    border-radius: 20px;
+    height: 900px;
+    width: 400px;
+    z-index: 1000000;
+    transform: scale(110%);
+}
+
+.pdf4:not(:hover) {
+    display: none;
+}
+
+.pdf4:hover {
+    animation-name: blurin;
+    animation-duration: 0.5s;
+}
+
+.pdfhelp:hover+.pdf4 {
+    display: block;
+    transition: 0.5s;
+}
+
+.dwnld {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -85px;
+    transition: 0.5s;
+    z-index: 100000000000000000000000000000000000000000000000000000000000;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    border-radius: 10px;
+    transform: rotate(-90deg);
+}
+
+.dwnld:hover {
+    transform: scale(110%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.rec1 {
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+.rec1:hover {
+    box-shadow: 0px 0px 50px #888888;
+    transform: scale(105%) translate(0px, -20px);
+    transition: 0.5s;
+}
+
+.pdfhelp {
+    background-color: #edecf1;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px #888888;
+}
+
+.recimg {
+    border-radius: 20px;
+    box-shadow: 0px 0px 100px #888888;
+}
+
+.recname {
+    font-family: gintobold;
+    font-size: 30px;
+    color: black;
+}
+
+.recinfo {
+    color: rgb(36, 36, 36);
+    font-size: 15px;
+    margin-top: -25px;
+}
