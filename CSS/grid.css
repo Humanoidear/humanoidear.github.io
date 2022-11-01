@@ -54,6 +54,21 @@
     border-radius:18px;
     z-index:100000;
     pointer-events: none;
+    transition:0.5s;
+  }
+
+  .es:hover:before {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 5px solid white;
+    border-radius:18px;
+    z-index:100000;
+    pointer-events: none;
+    transition:0.5s;
   }
 
 a {

@@ -6,11 +6,8 @@
         padding-left: 0px;
         padding-top: 0px;
         padding-bottom: 0px;
-        z-index: 100000;
+        z-index: 1000;
         transition: 0.5s;
-    }
-    .Esquemasholder{
-    z-index:1000000;
     }
 }
 
@@ -68,6 +65,49 @@
     .TwoBach{
         font-size:45px;
     }
+    .es{
+        height:130px;
+
+    }
+    .recname2{
+        top:0%;
+        position:absolute;
+    }
+    .recinfo2{
+        top:45%;
+        position:absolute;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 70%; 
+        overflow:hidden;
+    }
+    .dwnld2{
+        right:20px;
+        top:84%;
+        position:absolute;
+    }
+
+.es:hover .recimg2{
+    transform: scale(130%) rotate(5deg);
+    transition:1s;
+}
+
+.es:hover .recname2{
+    display:none;
+}
+
+.es:hover .recinfo2{
+    display:none;
+}
+
+.es:hover .dwnld2{
+    right:20px;
+    top:84%;
+    position:absolute;
+    transition:0.5s;
+    transform: rotate(0deg);
+}
+
 }
 
 @media screen and (max-height: 500px) {
