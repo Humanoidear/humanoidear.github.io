@@ -26,7 +26,7 @@ window.addEventListener("scroll", function() {
 
 window.addEventListener("scroll", function() {
     var e = document.querySelector("e");
-    e.classList.toggle("sticky", window.scrollY > 790);
+    e.classList.toggle("sticky", window.scrollY > 0);
 })
 
 
