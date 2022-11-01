@@ -29,11 +29,13 @@
     }
 
    .scrollers{
-    width:800px;
+    width:850px;
     height:1000px;
     z-index:1;
+    margin-left:20px;
+    margin-right:20px;
     top:0;
-    right:10%;
+    right:2%;
     position:fixed;
     overflow:hidden;
     border-bottom-left-radius: 18px;
@@ -41,17 +43,18 @@
    }
 
    .scroller-one{
-    width:50%;
+    width:48%;
     height:100%;
     top:0;
+    left:10px;
     position:absolute;
    }
 
    .scroller-two{
-    width:50%;
+    width:48%;
     height:100%;
     top:0;
-    left:51%;
+    left:50%;
     position:absolute;
    }
 
