@@ -146,6 +146,14 @@ d.sticky{
     display:none;
 }
 
+e{
+    display:block;
+}
+
+e.sticky{
+    display:none;
+}
+
 .dwnld2 {
     margin-left: 80%;
     position: absolute;
