@@ -42,6 +42,16 @@
     }
     .scroller-two{
         opacity:0.2;
+        left:0;
+        position: absolute;
+        width:100%;
+    }
+    .scrollers{
+        left:0;
+        position:fixed;
+        width:90%;
+        margin-left:5%;
+        margin-right:5%;
     }
     .intro{
         margin-right:40px;
@@ -50,7 +60,20 @@
         top:35%;
     }
     .grid{
-        left:500px;
+        width:100%;
+        left:0%;
+        position:relative;
+        display:block;
+        margin-right:0;
+        margin-left:0;
+    }
+
+    .squarecontain{
+        width:100%;
+        overflow:;
+        margin-left:0;
+        left:0;
+        padding:0;
     }
     .Recommended{
         padding-left:0px;
@@ -67,11 +90,19 @@
     }
     .es{
         height:130px;
+        width:90%;
+        margin-bottom:20px;
+        margin-left:5%;
+        margin-right:5%;
 
     }
     .recname2{
         top:0%;
         position:absolute;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 70%; 
+        overflow:hidden;
     }
     .recinfo2{
         top:45%;
@@ -85,6 +116,13 @@
         right:20px;
         top:84%;
         position:absolute;
+    }
+
+    .es:hover{
+        box-shadow: 0px 0px 50px 1px white;
+    transform: scale(105%) translate(0,0px);
+    z-index: 1;
+    transition:0.5s;
     }
 
 .es:hover .recimg2{
