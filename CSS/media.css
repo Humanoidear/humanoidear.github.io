@@ -49,6 +49,20 @@
     .intro{
         top:35%;
     }
+    .grid{
+        left:500px;
+    }
+    .Recommended{
+        padding-left:0px;
+        padding-right:0px;
+        right:20px;
+    }
+}
+
+@media screen and (max-height: 500px) {
+     .intro{
+        top:50px;
+     }
 }
 
 /* Why do it like this?*/
