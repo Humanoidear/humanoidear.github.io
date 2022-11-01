@@ -19,6 +19,10 @@ window.addEventListener("scroll", function() {
     c.classList.toggle("sticky", window.scrollY > 790);
 })
 
+window.addEventListener("scroll", function() {
+    var d = document.querySelector("d");
+    d.classList.toggle("sticky", window.scrollY > 790);
+})
 
 
 
