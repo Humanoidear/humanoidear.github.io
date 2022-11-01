@@ -53,6 +53,12 @@
         margin-left:5%;
         margin-right:5%;
     }
+    header{
+        z-index:100000000000000000000000000000000000;
+    }
+    dark-mode-toggle{
+        z-index:100000000000000000000000000000000000;
+    }
     .intro{
         margin-right:40px;
     }
