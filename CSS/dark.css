@@ -329,7 +329,7 @@ p {
 
 .opaque{
     width:100%;
-    height:120%;
+    height:100%;
     opacity:0.8;
     z-index:0;
     position:absolute;
@@ -340,7 +340,7 @@ p {
 .opaque.sticky {
     background-color: rgba(0, 0, 0, 0.736);
     backdrop-filter: blur(5px);
-    z-index: 9900;
+    z-index: 99000;
     transition:0.5s;
 }
 
