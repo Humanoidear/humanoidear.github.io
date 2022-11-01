@@ -61,7 +61,7 @@ p {
     bottom:25px;
     overflow: hidden;
     position:fixed;
-    z-index:100000000;
+    z-index:100000;
 }
 
 
