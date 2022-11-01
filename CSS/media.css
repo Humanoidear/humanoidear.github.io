@@ -64,10 +64,14 @@
         left:0%;
         position:relative;
         display:block;
+        padding-bottom:25%;
         margin-right:0;
         margin-left:0;
+        margin-bottom:0px;
     }
-
+    .moreimg{
+       display:none;
+    }
     .squarecontain{
         width:100%;
         overflow:;
