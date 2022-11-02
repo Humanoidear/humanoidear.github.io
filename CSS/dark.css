@@ -257,12 +257,12 @@ p {
     position: absolute;
     bottom: 0;
     left: 0;
-    background: #ffffff;
-    z-index: 10;
+    background: #ffffff00;
+    z-index: 0;
 }
 
 .wave {
-    background: url(../Assets/SVG/wave.svg) repeat-x;
+    background: url(../Assets/Images/wave.svg) repeat-x;
     position: absolute;
     top: -121px;
     width: 6400px;
@@ -365,7 +365,7 @@ b.sticky {
 
 .OneBach{
  position:absolute;
- top:16%;
+ top:-150px;
  left:5%;
  font-size: 58px;
  color:white;
@@ -501,14 +501,20 @@ b.sticky {
     width:100%;
     height:200px;
     bottom:0;
-    background-color:rgba(0, 0, 0, 0);
+    z-index: 1000000000000;
+    background-color:rgb(17, 36, 42);
+    overflow:hidden;
     position:relative;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    margin-top:-5%;
 }
 
 .logoend2{
     top:50%;
     position:absolute;
     transform:translate(0,-50%);
+    z-index:1;
     left:10%;
 }
 
@@ -519,6 +525,7 @@ b.sticky {
     overflow:hidden;
     position:absolute;
     transform:translate(0,-50%);
+    z-index:1;
     right:10%;
     font-family:gintobold;
 }

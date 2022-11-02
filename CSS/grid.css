@@ -20,6 +20,7 @@
 .grid {
     margin-top: 0px;
     margin-left: 5%;
+    padding-bottom:100px;
     width:100%;
     display: grid;
     gap: 2rem;
@@ -183,12 +184,11 @@ d.sticky{
 }
 
 .squarecontain {
-    margin-top: 35vh;
+    top:30%;
+    position:relative;
     background-color: rgb(255, 255, 255);
     width: 100vw;
-    margin-left: -8px;
-    margin-bottom: -10px;
-    padding: 10px;
+    padding-bottom:0%;
     z-index: 1;
 }
 

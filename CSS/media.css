@@ -84,6 +84,7 @@
         margin-left:0;
         left:0;
         padding:0;
+        margin-bottom:150px;
     }
     .Recommended{
         padding-left:0px;
@@ -93,10 +94,12 @@
 
     .OneBach{
         font-size:45px;
+        top:-115px;
     }
 
     .TwoBach{
         font-size:45px;
+        top:50px;
     }
     .es{
         height:130px;
