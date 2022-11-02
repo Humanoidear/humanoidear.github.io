@@ -158,7 +158,6 @@ d.sticky{
     position: absolute;
     transition: 0.5s;
     z-index: 100000000000000000000000000000000000000000000000000000000000;
-    backdrop-filter: blur(20px);
     top:86%;
     padding: 10px;
     border-radius: 10px;
