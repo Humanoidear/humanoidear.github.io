@@ -29,13 +29,20 @@
     .scroller-one{
         display:none;
     }
+
+    .scroller-two{
+        width:80%;
+        left:0%;
+    }
+
     .Recommended{
         padding-left:0px;
         padding-right:0px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
+    
     .blockers {
         display:none;
         transition:0.5s;
@@ -78,6 +85,7 @@
     .moreimg{
        display:none;
     }
+
     .squarecontain{
         width:100%;
         overflow:;
@@ -158,6 +166,35 @@
     transition:0.5s;
     transform: rotate(0deg);
 }
+
+    .es1{
+    background-color:rgba(255, 255, 255, 0);
+    width:98%;
+    height:%;
+    position: absolute;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0);
+  }
+
+  #multiple{
+    display:none;
+  }
+
+  .searchbox{
+    height:100%;
+  }
+
+  .boxhold{
+    bottom:120px;
+    position:absolute;
+  }
+
+  .box{
+    left:45px;
+    text-align: left;
+    width:300px;
+
+
+  }
 
 }
 

@@ -147,6 +147,14 @@ d.sticky{
     display:none;
 }
 
+f{
+    display:none;
+}
+
+f.sticky{
+    display:block;
+}
+
 .dwnld2 {
     margin-left: 80%;
     position: absolute;
@@ -226,3 +234,405 @@ d.sticky{
         width:35%;
     } 
   }
+
+  .es2{
+    height:23%;
+    position:absolute;
+    overflow:hidden;
+    top:25%;
+    padding:4px;
+    padding-left:8px;
+    padding-right:8px;
+    border-radius:18px;
+  }
+
+  .es2:nth-child(1){
+    height:23%;
+    position:absolute;
+    overflow:hidden;
+    top:0%;
+    padding:4px;
+    padding-left:8px;
+    padding-right:8px;
+    border-radius:18px;
+  }
+
+  .es2:nth-child(2){
+    height:23%;
+    position:absolute;
+    overflow:hidden;
+    top:50%;
+    padding:4px;
+    padding-left:8px;
+    padding-right:8px;
+    border-radius:18px;
+  }
+
+  .es2:nth-child(4){
+    height:23%;
+    position:absolute;
+    overflow:hidden;
+    top:75%;
+    padding:4px;
+    padding-left:8px;
+    padding-right:8px;
+    border-radius:18px;
+  }
+
+  .recname1{
+    top:8%;
+    position:absolute;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 70%; 
+    left:8%;
+    font-family:gintobold;
+    font-size:30px;
+    overflow:hidden;
+}
+.recinfo1{
+    top:45%;
+    position:absolute;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 70%; 
+    left:8%;
+    overflow:hidden;
+}
+
+.recimg1{
+    border-radius: 18px;
+    filter: blur(8px);
+    transform:  scale(120%);
+}
+
+.dwnld1{
+    right:20px;
+    top:80%;
+    width:100%;
+    height:25%;
+    position:absolute;
+}
+
+.es2:hover {
+    z-index: 1;
+    transition:0.5s;
+}
+
+.es2:hover .recimg1{
+    transform: scale(130%) rotate(5deg);
+    transition:1s;
+}
+
+.es2:hover .recname1{
+    transition:0.5s;
+    display:none;
+}
+
+.es2:hover .recinfo1{
+    transition:0.5s;
+    display:none;
+}
+
+.es2:hover .dwnld1{
+    left:45%;
+    position:absolute;
+    transform: rotate(0deg);
+    transition:0.5s;
+}
+
+.dwnld1 {
+    right: 0%;
+    position: absolute;
+    margin-top: -70px;
+    transition:0.5s;
+    width:30px;
+    height:30px;
+}
+
+.dwnld1 {
+    position: absolute;
+    transition: 0.5s;
+    z-index: 100000000000000000000000000000000000000000000000000000000000;
+    top:85%;
+    transform: translate(0,-50%);
+    right:20px;
+    padding: 10px;
+    border-radius: 10px;
+    transform: rotate(-90deg);
+    filter: invert(1);
+}
+
+.dwnld1:hover {
+    transform: rotate(0deg);
+}
+
+.es2:before {
+    content: " ";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 5px solid white;
+    border-radius:18px;
+    z-index:100000;
+    pointer-events: none;
+    transition:0.5s;
+  }
+
+  .es2:hover:before {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 5px solid white;
+    border-radius:18px;
+    z-index:100000;
+    pointer-events: none;
+    transition:0.5s;
+  }
+
+  #multiple::before{
+    border: 0px solid white;
+  }
+
+  #multiple{
+    background-color:rgba(255, 255, 255, 0);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0);
+  }
+
+  .es3{
+    height:31%;
+    position:absolute;
+    overflow:hidden;
+    top:66%;
+    padding:4px;
+    padding-left:8px;
+    padding-right:8px;
+    border-radius:18px;
+  }
+
+  .es3:nth-child(1){
+    height:31%;
+    position:absolute;
+    overflow:hidden;
+    top:0%;
+    padding:4px;
+    padding-left:8px;
+    padding-right:8px;
+    border-radius:18px;
+  }
+
+  .es3:nth-child(2){
+    height:31%;
+    position:absolute;
+    overflow:hidden;
+    top:33%;
+    padding:4px;
+    padding-left:8px;
+    padding-right:8px;
+    border-radius:18px;
+  }
+
+
+  .es3:hover {
+    z-index: 1;
+    transition:0.5s;
+}
+
+.es3:hover .recimg1{
+    transform: scale(130%) rotate(5deg);
+    transition:1s;
+}
+
+.square3:hover .recname1{
+    transition:0.5s;
+    display:none;
+}
+
+.es3:hover .recinfo1{
+    transition:0.5s;
+    display:none;
+}
+
+.es3:hover .dwnld1{
+    left:45%;
+    position:absolute;
+    transform: rotate(0deg);
+    transition:0.5s;
+}
+
+.es3:hover .dwnld1{
+    left:45%;
+    position:absolute;
+    top:80%;
+    transform: rotate(0deg);
+    transition:0.5s;
+}
+
+.es3:before {
+    content: " ";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 5px solid white;
+    border-radius:18px;
+    z-index:100000;
+    pointer-events: none;
+    transition:0.5s;
+  }
+
+  .es3:hover:before {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 5px solid white;
+    border-radius:18px;
+    z-index:100000;
+    pointer-events: none;
+    transition:0.5s;
+  }
+
+  .es3:hover .recimg1{
+    transform: scale(130%) rotate(5deg);
+    transition:1s;
+}
+
+.es3:hover .recname1{
+    transition:0.5s;
+    display:none;
+}
+
+.es3:hover .recinfo1{
+    transition:0.5s;
+    display:none;
+}
+
+.es1{
+    height:31%;
+    position:absolute;
+    overflow:hidden;
+    top:66%;
+    padding:4px;
+    padding-left:8px;
+    padding-right:8px;
+    border-radius:18px;
+  }
+
+  .es1:nth-child(1){
+    height:48%;
+    position:absolute;
+    overflow:hidden;
+    top:0%;
+    padding:4px;
+    padding-left:8px;
+    padding-right:8px;
+    border-radius:18px;
+  }
+
+  .es1:nth-child(2){
+    height:48%;
+    position:absolute;
+    overflow:hidden;
+    top:50%;
+    padding:4px;
+    padding-left:8px;
+    padding-right:8px;
+    border-radius:18px;
+  }
+
+
+  .es1:hover {
+    z-index: 1;
+    transition:0.5s;
+}
+
+.es1:hover .recimg1{
+    transform: scale(130%) rotate(5deg);
+    transition:1s;
+}
+
+.square3:hover .recname1{
+    transition:0.5s;
+    display:none;
+}
+
+.es1:hover .recinfo1{
+    transition:0.5s;
+    display:none;
+}
+
+.es1:hover .dwnld1{
+    left:45%;
+    position:absolute;
+    transform: rotate(0deg);
+    transition:0.5s;
+}
+
+.es1:hover .dwnld1{
+    left:45%;
+    top:70%;
+    position:absolute;
+    transform: rotate(0deg);
+    transition:0.5s;
+}
+
+.es1:before {
+    content: " ";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 5px solid white;
+    border-radius:18px;
+    z-index:100000;
+    pointer-events: none;
+    transition:0.5s;
+  }
+
+  .es1:hover:before {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 5px solid white;
+    border-radius:18px;
+    z-index:100000;
+    pointer-events: none;
+    transition:0.5s;
+  }
+
+  .es1:hover .recimg1{
+    transform: scale(130%) rotate(5deg);
+    transition:1s;
+}
+
+.es1:hover .recname1{
+    transition:0.5s;
+    display:none;
+}
+
+.es1:hover .recinfo1{
+    transition:0.5s;
+    display:none;
+}
+
+ .searchbox{
+    top:30px;
+    width:100%;
+    position:absolute;
+    right:20px;
+    position:fixed;
+    z-index:1000000;
+ }
