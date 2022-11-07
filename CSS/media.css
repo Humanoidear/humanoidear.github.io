@@ -180,17 +180,32 @@
   }
 
   .searchbox{
-    height:100%;
-    pointer-events: none;
+    height:50px;
+    left:0;
+    overflow: scroll;
+    top:300px;
+    width:50px
   }
 
   .boxhold{
-    bottom:110px;
+    bottom:0px;
     position:absolute;
   }
 
+  input{
+    width:50px;
+    top:0;
+    position:absolute;
+    height:50px;
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+    
+  }
+
   .box{
-    left:45px;
+    top:0;
+    left:0px;
     text-align: left;
     width:300px;
 
@@ -202,6 +217,17 @@
 @media screen and (max-height: 500px) {
      .intro{
         top:50px;
+     }
+
+     #headname{
+        bottom:-50px;
+        width:300px;
+        text-align: left;
+        position:absolute;
+     }
+
+     #headinfo{
+        display:none;
      }
 }
 
