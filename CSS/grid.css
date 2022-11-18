@@ -363,6 +363,22 @@ f.sticky{
     filter: invert(1);
 }
 
+.es:focus{
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    left:0;
+    transition:2s;
+}
+
+.es:hover .es1:not(:hover){
+    filter: opacity(0.3);
+}
+
+.es:hover body{
+    overflow:hidden;
+}
+
 .dwnld1:hover {
     transform: rotate(0deg);
 }
