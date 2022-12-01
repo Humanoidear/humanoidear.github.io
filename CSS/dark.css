@@ -379,15 +379,17 @@ b.sticky {
 }
 
 .TwoBach{
-    margin-top:30px;
+    margin-top:0px;
+    text-align:left;
+    margin-bottom:50px;
+    position:relative;
     left:5%;
     color:white;
-    margin-top:-130px;
     font-size:58px;
    }
 
    .dropdown {
-    position: relative;
+    position: relative
     display: inline-block;
   }
   
@@ -508,7 +510,7 @@ b.sticky {
     left:1%;
     right:1%;
     bottom:20px;
-    margin-top:-5%;
+    margin-top:10%;
 }
 
 .logoend2{

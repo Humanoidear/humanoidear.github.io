@@ -25,7 +25,7 @@
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(350px, 100px));
-    margin-bottom: 300px;
+    margin-bottom: 00px;
 }
 
 .es {
@@ -652,3 +652,64 @@ f.sticky{
     position:fixed;
     z-index:1000000;
  }
+
+ .subclass{
+    font-size:38px;
+    left:5%;
+    text-align:left;
+    position:relative;
+    margin-bottom:50px;
+ }
+
+ .filters{
+    position: relative;
+    top:30px;
+    margin-bottom:30px;
+    height:0;
+ }
+
+ .filterholder {
+    margin-top: 0px;
+    margin-left: 5%;
+    padding-bottom:20px;
+    width:90%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 20px));
+    margin-bottom: 10px;
+    overflow:scroll;
+}
+
+.esfilter {
+    justify-content: center;
+    align-items: center;
+    background-color: #505050;
+    backdrop-filter: blur(20px);
+    color: rgb(255, 255, 255);
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    transition: all 500ms;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow:hidden;
+}
+
+.recnamefilter {
+    left:20px;
+    text-align:right;
+    font-family: gintobold;
+    font-size: 25px;
+    top:-23%;
+    color: white;
+    position:absolute;
+    text-decoration: none;
+    transition:0.5s;
+}
+
+.recimg2:hover{
+    transform: scale(130%) rotate(5deg);
+    opacity: 0.5;
+    transition:1s;
+}
