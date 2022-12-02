@@ -15,6 +15,11 @@ window.addEventListener("scroll", function() {
 })
 
 window.addEventListener("scroll", function() {
+    var filt = document.querySelector("filt");
+    filt.classList.toggle("sticky", window.scrollY > 790);
+})
+
+window.addEventListener("scroll", function() {
     var c = document.querySelector("c");
     c.classList.toggle("sticky", window.scrollY > 790);
 })

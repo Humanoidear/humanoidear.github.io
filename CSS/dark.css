@@ -317,7 +317,7 @@ p {
 
 .Esquemasholder{
     width: 100%;
-    height:100%;
+    height:300px;
     position:absolute;
     top:100%;
     background-color:#121212;
@@ -365,7 +365,7 @@ b.sticky {
 
 .OneBach{
  position:absolute;
- top:-150px;
+ top:50px;
  left:5%;
  font-size: 58px;
  color:white;
@@ -376,6 +376,8 @@ b.sticky {
 .squarecontain{
     background-color:#121212;
     transition:1s;
+    top: 200px;
+    position: relative;
 }
 
 .TwoBach{
@@ -509,8 +511,8 @@ b.sticky {
     border-radius:18px;
     left:1%;
     right:1%;
-    bottom:20px;
-    margin-top:10%;
+    bottom:120px;
+    margin-top:55%;
 }
 
 .logoend2{

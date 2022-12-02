@@ -317,7 +317,7 @@ p {
 
 .Esquemasholder{
     width: 100%;
-    height:100%;
+    height:300px;
     position:absolute;
     top:100%;
     background-color:#ffffff;
@@ -376,6 +376,8 @@ b.sticky {
 .squarecontain{
     background-color:#ffffff;
     transition:1s;
+    top: 200px;
+    position: relative;
 }
 
 .TwoBach{
@@ -513,8 +515,8 @@ b.sticky {
     border-radius:18px;
     left:1%;
     right:1%;
-    bottom:20px;
-    margin-top:10%;
+    bottom:120px;
+    margin-top:55%;
 }
 
 .logoend2{
@@ -587,3 +589,23 @@ input{
     -webkit-backdrop-filter: blur(18px);
     right:20px;
  }
+
+ .filters{
+    position: absolute;
+    left:2%;
+    height:50px;
+    width:90%;
+    background-color: #f5f5f5;
+    border-radius:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: 0.5s;
+    border: 5px solid #f5f5f5;
+ }
+
+ .esfilter:hover {
+    transform: scale(105%);
+    box-shadow: 0px 0px 10px #ffffff;
+    filter: brightness(115%);
+    transition: 0.5s;
+}
