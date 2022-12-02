@@ -61,7 +61,7 @@ p {
     bottom:25px;
     overflow: hidden;
     position:fixed;
-    z-index:100000000;
+    z-index:1000;
 }
 
 
@@ -334,7 +334,7 @@ p {
     z-index:0;
     position:absolute;
     left:0;
-    transition:0.5;
+    transition:0.5s;
 }
 
 .opaque.sticky {

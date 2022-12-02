@@ -1,4 +1,6 @@
-
+html::-webkit-scrollbar {
+    display: none;
+  }
 
 .esq {
     margin-left: 5%;
@@ -664,19 +666,18 @@ f.sticky{
  .filters{
     position: relative;
     top:30px;
-    margin-bottom:30px;
-    height:0;
+    height:50px;
  }
 
  .filterholder {
     margin-top: 0px;
     margin-left: 5%;
-    padding-bottom:20px;
     width:90%;
+    height:50px;
+    border-radius:20px;
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(150px, 20px));
-    margin-bottom: 10px;
     overflow:scroll;
 }
 
@@ -686,7 +687,6 @@ f.sticky{
     background-color: #505050;
     backdrop-filter: blur(20px);
     color: rgb(255, 255, 255);
-    height: 50px;
     width: 100%;
     border-radius: 20px;
     transition: all 500ms;
@@ -706,10 +706,4 @@ f.sticky{
     position:absolute;
     text-decoration: none;
     transition:0.5s;
-}
-
-.recimg2:hover{
-    transform: scale(130%) rotate(5deg);
-    opacity: 0.5;
-    transition:1s;
 }
