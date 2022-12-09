@@ -716,7 +716,7 @@ position: absolute;
 
 .esfilter {
     transition: 0.5s;
-    background-color: #50505000;
+    background-color: rgba(0, 0, 0, 0.229);
     border:3px solid white;
     backdrop-filter: blur(20px);
     color: rgb(255, 255, 255);
