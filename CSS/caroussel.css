@@ -292,11 +292,59 @@
 
    .startbox{
     border-radius:8px;
-    width:95%;
+    width:20%;
     position: absolute;
     left:0;
-    top:160%;
+    top:106%;
+    transition:0.5s;
    }
+
+   .startbox:hover{
+    transform: scale(104%);
+    transition: 0.5s;
+   }
+
+   .filtershome{
+    position: relative;
+    display: inline-block;
+    left:28%;
+    top:70px;
+    height:54px;
+    width:72%;
+    border-radius:8px;
+    transition: 0.5s;
+    backdrop-filter: blur(8px);
+ }
+
+ .filterholderhome{
+    width:99%;
+    top:0;
+    height:59px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 00px));
+    overflow:scroll;
+    left:50%;
+    transition: 0.5s;
+    transform: translate(-50%,0);
+    border-radius:8px;
+position: absolute;
+overflow-y: hidden;
+}
+
+
+.recnamefilterhome {
+    font-family: ginto;
+    font-size: 20px;
+    color: white;
+    position:absolute;
+    top:-4%;
+    left:50%;
+    transform: translate(-50%,0);
+    text-decoration: none;
+    transition:0.5s;
+    text-align:center;
+}
 
    .toblog{
     rotate:90deg;

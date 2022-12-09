@@ -202,4 +202,54 @@ transition: 0.5s;
     right:10px;
     rotate:0deg;
   }
+
+  .startbox{
+    border-radius:8px;
+    width:20%;
+    position: absolute;
+    left:0;
+    top:86%;
+   }
+
+  .filtershome{
+    position: relative;
+    display: inline-block;
+    left:33%;
+    top:31px;
+    height:54px;
+    width:67%;
+    border-radius:8px;
+    transition: 0.5s;
+    backdrop-filter: blur(8px);
+ }
+
+ .filterholderhome{
+    width:99%;
+    top:0;
+    height:59px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 00px));
+    overflow:scroll;
+    left:50%;
+    transition: 0.5s;
+    transform: translate(-50%,0);
+    border-radius:8px;
+position: absolute;
+overflow-y: hidden;
+}
+
+
+.recnamefilterhome {
+    font-family: ginto;
+    font-size: 20px;
+    color: white;
+    position:absolute;
+    top:-4%;
+    left:50%;
+    transform: translate(-50%,0);
+    text-decoration: none;
+    transition:0.5s;
+    text-align:center;
+}
 }
