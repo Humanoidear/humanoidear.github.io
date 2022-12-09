@@ -27,7 +27,6 @@ html::-webkit-scrollbar {
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(350px, 100px));
-    margin-bottom: 00px;
 }
 
 .es {
