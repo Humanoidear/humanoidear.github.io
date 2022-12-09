@@ -22,7 +22,7 @@ html::-webkit-scrollbar {
 .grid {
     margin-top: -15px;
     margin-left: 5%;
-    padding-bottom:100px;
+    padding-bottom:20px;
     width:100%;
     display: grid;
     gap: 2rem;
@@ -87,6 +87,7 @@ a {
 
 .es:hover .recimg2{
     transform: scale(130%) rotate(5deg);
+    filter:blur(5px) brightness(40%) ;
     transition:1s;
 }
 
@@ -95,6 +96,11 @@ a {
     right:10%;
     text-align: center;
     transition:0.5s;
+}
+
+.es:hover .tags{
+    transition:0.5s;
+    transform: translate(10px,-10px);
 }
 
 .es:hover .recinfo2{
@@ -675,12 +681,12 @@ f.sticky{
     left:2%;
     height:50px;
     width:90%;
-    background-color: #202020;
-    border-radius:20px;
+    background-color: #202020b0;
+    border-radius:50px;
     padding-top:10px;
     padding-bottom:10px;
     transition: 0.5s;
-    border: 5px solid #202020;
+    backdrop-filter: blur(8px);
  }
 
  filt.sticky{
@@ -705,23 +711,17 @@ f.sticky{
     left:50%;
     transition: 0.5s;
     transform: translate(-50%,0);
+    border-radius:50px;
 position: absolute;
 }
 
 .esfilter {
     transition: 0.5s;
-    justify-content: center;
-    align-items: center;
-    background-color: #505050;
+    background-color: #50505000;
+    border:3px solid white;
     backdrop-filter: blur(20px);
     color: rgb(255, 255, 255);
-    width: 100%;
-    border-radius: 20px;
-    transition: all 500ms;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow:hidden;
+    border-radius: 50px;
     transition: 0.5s;
 }
 
@@ -733,39 +733,35 @@ position: absolute;
 }
 
 .recnamefilter {
-    left:20px;
-    text-align:right;
     font-family: gintobold;
-    font-size: 25px;
-    top:-23%;
+    font-size: 20px;
     color: white;
     position:absolute;
+    bottom:-20%;
+    left:50%;
+    transform: translate(-50%,0);
     text-decoration: none;
     transition:0.5s;
+    text-align:center;
 }
 
-.driveholder{
-    width:20%;
-    overflow: hidden;
-    right:40px;
-    height:70px;
-    background-color:rgba(89, 89, 89, 0.346);
-    backdrop-filter: blur(20px);
+.tags{
+    height:20px;
     position:absolute;
-    top:10%;
+    top:35px;
+    right:35px;
+    display: flex;
+    gap:10px;
+    transition: 0.5s;
+}
+
+.tag{
+    background-color: rgba(255, 255, 255, 0.645);
+    padding:8px;
+    padding-bottom:22px;
+    border-radius: 5px;
+    backdrop-filter: blur(20px);
     font-family: ginto;
     color:white;
-    border-radius: 20px;
-    transition:0.5s;
-}
-
-.gdtext{
-    top:40%;
-    position:absolute;
-    left:80px;
-}
-
-.gdimg{
-    left:-15px;
-    position: absolute;
+    top:0;
 }
