@@ -511,17 +511,17 @@ b.sticky {
 }
 
 .ender{
-    width:98%;
+    width:90%;
     height:200px;
     z-index: 1000000000000;
     background-color:rgb(17, 36, 42);
     overflow:hidden;
     position:relative;
     border-radius:18px;
-    left:1%;
-    right:1%;
     bottom:120px;
-    margin-top:55%;
+    margin-top:400px;
+    left:5%;
+    right:5%;
 }
 
 .logoend2{

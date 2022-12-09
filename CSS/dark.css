@@ -515,17 +515,17 @@ b.sticky {
 }
 
 .ender{
-    width:98%;
+    width:90%;
     height:200px;
     z-index: 1000000000000;
     background-color:rgb(17, 36, 42);
     overflow:hidden;
     position:relative;
     border-radius:18px;
-    left:1%;
-    right:1%;
     bottom:120px;
-    margin-top:55%;
+    margin-top:400px;
+    left:5%;
+    right:5%;
 }
 
 .logoend2{
@@ -584,19 +584,8 @@ input{
     border:3px solid white;
     color:white;
     opacity: 0.8;
-    transition: 0.5s;
     background-color: rgba(0, 0, 0, 0.229);
     backdrop-filter: blur(18px);
- }
-
- .box{
-    position: absolute;
-    top:0;
-    width:20%;
-    border-radius: 88px;
-    background-color: rgba(0, 0, 0, 0.229);
-    -webkit-backdrop-filter: blur(18px);
-    right:20px;
  }
 
  u{

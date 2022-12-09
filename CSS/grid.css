@@ -678,11 +678,11 @@ f.sticky{
 
  .filters{
     position: absolute;
-    left:2%;
+    left:5%;
     height:50px;
     width:90%;
     background-color: #202020b0;
-    border-radius:50px;
+    border-radius:8px;
     padding-top:10px;
     padding-bottom:10px;
     transition: 0.5s;
@@ -694,7 +694,7 @@ f.sticky{
     transition: 0.5s;
     z-index:100000000000;
     width:80%;
-    left:2%;
+    left:5%;
     position:fixed;
  }
 
@@ -711,7 +711,7 @@ f.sticky{
     left:50%;
     transition: 0.5s;
     transform: translate(-50%,0);
-    border-radius:50px;
+    border-radius:8px;
 position: absolute;
 }
 
@@ -721,7 +721,7 @@ position: absolute;
     border:3px solid white;
     backdrop-filter: blur(20px);
     color: rgb(255, 255, 255);
-    border-radius: 50px;
+    border-radius: 8 px;
     transition: 0.5s;
 }
 
