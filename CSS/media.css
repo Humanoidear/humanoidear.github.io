@@ -25,20 +25,6 @@
         transition: 0.5s;
         z-index: 0;
     }
-
-    .scroller-one{
-        display:none;
-    }
-
-    .scroller-two{
-        width:80%;
-        left:0%;
-    }
-
-    .Recommended{
-        padding-left:0px;
-        padding-right:0px;
-    }
 }
 
 @media screen and (max-width: 850px) {
@@ -47,19 +33,25 @@
         display:none;
         transition:0.5s;
     }
-    .scroller-two{
-        opacity:0.2;
-        left:0;
-        position: absolute;
-        width:100%;
-    }
+
     .scrollers{
         left:0;
         position:fixed;
-        width:90%;
-        margin-left:5%;
-        margin-right:5%;
+        width:1000px;
+        height:600px;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
     }
+
+    h2{
+        width:100%;
+        margin-left:0px;
+        position:relative;
+        padding:0;
+        top:30px;
+    }
+
     header{
         z-index:100000000000000000000000000000000000;
     }
@@ -67,10 +59,8 @@
         z-index:100000000000000000000000000000000000;
     }
     .intro{
-        margin-right:40px;
-    }
-    .intro{
         top:35%;
+        width:85%;
     }
     .grid{
         width:100%;
@@ -187,114 +177,23 @@ transition: 0.5s;
     display:none;
   }
 
-  .searchbox{
-    display:none;
+  .firstone{
+    font-size:70px;
   }
 
-  input{
-    display:none;
+  .firstone{
+    font-size:70px;
   }
 
-}
+  .startbox{
+    top:130%;
+  }
 
-@media screen and (max-height: 500px) {
-     .intro{
-        top:50px;
-     }
+  .blogimg{
+    width:100%;
+  }
 
-     #headname{
-        bottom:-50px;
-        width:300px;
-        text-align: left;
-        position:absolute;
-     }
-
-     #headinfo{
-        display:none;
-     }
-}
-
-/* Why do it like this?*/
-
-
-/* Because fuck you, that's why.*/
-
-@media screen and (max-width: 1700px) {
-    .recsec {
-        zoom: 0.95;
-        transform: translate(0, -100px);
-        transition: 0.5s;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-    .recsec {
-        zoom: 0.9;
-        transform: translate(0, -150px);
-        transition: 0.5s;
-    }
-}
-
-@media screen and (max-width: 1550px) {
-    .recsec {
-        zoom: 0.85;
-        transform: translate(0, -200px);
-        transition: 0.5s;
-    }
-}
-
-@media screen and (max-width: 1500px) {
-    .recsec {
-        zoom: 0.8;
-        transform: translate(0, -250px);
-        transition: 0.5s;
-    }
-}
-
-@media screen and (max-width: 1450px) {
-    .recsec {
-        zoom: 0.75;
-        transform: translate(0, -350px);
-        transition: 0.5s;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .recsec {
-        zoom: 0.7;
-        transform: translate(0, -400px);
-        transition: 0.5s;
-    }
-}
-
-@media screen and (max-width: 1350px) {
-    .recsec {
-        zoom: 0.65;
-        transform: translate(0, -450px);
-        transition: 0.5s;
-    }
-}
-
-@media screen and (max-width: 1300px) {
-    .recsec {
-        zoom: 0.6;
-        transform: translate(0, -500px);
-        transition: 0.5s;
-    }
-}
-
-@media screen and (max-width: 1250px) {
-    .recsec {
-        zoom: 0.55;
-        transform: translate(0, -550px);
-        transition: 0.5s;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .recsec {
-        zoom: 0.5;
-        transform: translate(0, -600px);
-        transition: 0.5s;
-    }
+  .copyright3{
+    display:none;
+  }
 }

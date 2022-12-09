@@ -69,13 +69,18 @@ p {
 
 .intro {
     position:fixed;
-    top:50%;
-    left:5%;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index:1000;
 }
 
 .firstone {
     margin-top: 0px;
+    left:50%;
+    transform: translate(-50%,0);
     z-index:1;
+    font-size: 100px;
 }
 
 .button {
