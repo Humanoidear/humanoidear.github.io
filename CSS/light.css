@@ -370,7 +370,7 @@ b.sticky {
 
 .OneBach{
  position:absolute;
- top:-150px;
+ top:20px;
  left:5%;
  font-size: 58px;
  color:black;
@@ -381,8 +381,10 @@ b.sticky {
 .squarecontain{
     background-color:#ffffff;
     transition:1s;
-    top: 200px;
+    top:50px;
+    width:100%;
     position: relative;
+    overflow-x:hidden;
 }
 
 .TwoBach{

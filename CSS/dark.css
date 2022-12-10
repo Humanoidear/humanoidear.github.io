@@ -1,9 +1,10 @@
 /* Your usuar html yada yada...*/
 
 html {
-    overflow-x: hidden;
+
     scroll-behavior: smooth;
     text-decoration: none;
+    overflow-x: hidden;
 }
 
 .button {
@@ -378,7 +379,7 @@ b.sticky {
 
 .OneBach{
  position:absolute;
- top:-150px;
+ top:20px;
  left:5%;
  font-size: 58px;
  color:white;
@@ -389,8 +390,10 @@ b.sticky {
 .squarecontain{
     background-color:#121212;
     transition:1s;
-    top: 200px;
+    top:50px;
+    width:100%;
     position: relative;
+    overflow-x:hidden;
 }
 
 .TwoBach{

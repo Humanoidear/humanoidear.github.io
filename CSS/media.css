@@ -81,7 +81,6 @@
         margin-left:0;
         left:0;
         padding:0;
-        margin-bottom:150px;
     }
     .Recommended{
         padding-left:0px;
@@ -91,7 +90,7 @@
 
     .OneBach{
         font-size:45px;
-        top:-115px;
+        top:50px;
     }
 
     .TwoBach{
@@ -214,11 +213,11 @@ transition: 0.5s;
   .filtershome{
     position: relative;
     display: inline-block;
-    left:50%;
+    left:52.5%;
     transform: translate(-50%,0);
     top:111px;
     height:54px;
-    width:101%;
+    width:106%;
     border-radius:8px;
     transition: 0.5s;
     backdrop-filter: blur(8px);
