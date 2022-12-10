@@ -375,6 +375,21 @@ b.sticky {
    .grid{
     width:30%;
    }
+   .filterholderhome {
+    width: 99%;
+    top: -3px;
+    height: 76px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(9, minmax(150px, 0px));
+    overflow: scroll;
+    left: 50%;
+    transition: 0.5s;
+    transform: translate(-50%,0);
+    border-radius: 8px;
+    position: absolute;
+    overflow-y: hidden;
+}
   }
 
 .OneBach{
