@@ -256,10 +256,12 @@
     left:30px;
     top:-100px;
     font-size:25px;
-    width:100%;
+    width:85%;
     font-family: ginto;
     color:white;
     margin-right:150px;
+    overflow:hidden;
+    height:50px;
    }
 
    .headimg{
@@ -292,12 +294,13 @@
 
    .startbox{
     border-radius:8px;
-    width:20%;
+    width:94%;
     position: absolute;
-    left:0;
-    top:106%;
+    top:155%;
     transition:0.5s;
    }
+
+ 
 
    .startbox:hover{
     transform: scale(104%);
@@ -307,10 +310,10 @@
    .filtershome{
     position: relative;
     display: inline-block;
+    width:50%;
     left:28%;
     top:70px;
     height:54px;
-    width:72%;
     border-radius:8px;
     transition: 0.5s;
     backdrop-filter: blur(8px);
@@ -344,6 +347,11 @@ overflow-y: hidden;
     text-decoration: none;
     transition:0.5s;
     text-align:center;
+}
+
+.srch{
+    width:100%;
+    display: flex;
 }
 
    .toblog{
