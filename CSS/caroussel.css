@@ -290,6 +290,7 @@
         bottom:0;
         right:0;
         transition:0.5s;
+        animation
    }
 
    .startbox{
@@ -307,48 +308,6 @@
     transition: 0.5s;
    }
 
-   .filtershome{
-    position: relative;
-    display: inline-block;
-    width:50%;
-    left:28%;
-    top:70px;
-    height:54px;
-    border-radius:8px;
-    transition: 0.5s;
-    backdrop-filter: blur(8px);
- }
-
- .filterholderhome{
-    width:99%;
-    top:0;
-    height:59px;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 00px));
-    overflow:scroll;
-    left:50%;
-    transition: 0.5s;
-    transform: translate(-50%,0);
-    border-radius:8px;
-position: absolute;
-overflow-y: hidden;
-}
-
-
-.recnamefilterhome {
-    font-family: ginto;
-    font-size: 20px;
-    color: white;
-    position:absolute;
-    top:-4%;
-    left:50%;
-    transform: translate(-50%,0);
-    text-decoration: none;
-    transition:0.5s;
-    text-align:center;
-}
-
 .srch{
     width:100%;
     display: flex;
@@ -365,7 +324,7 @@ overflow-y: hidden;
     right:0;
     position:fixed;
     text-decoration-color: #15a142;
-    z-index:1000;
+    z-index:10000;
     transition:0.5s;
    }
 
@@ -377,12 +336,25 @@ overflow-y: hidden;
     transition:0.5s;
    }
 
+   .verno{
+    font-family:ginto;
+    font-size:15px;
+    position:absolute;
+    top:-35px;
+    right:-35px;
+    background-color: #12121277;
+    backdrop-filter: blur(8px);
+    padding:8px;
+    border-radius:18px;
+
+   }
+
    .gradient-text {
     /* Fallback: Set a background color. */
     background-color: #CA4246;
     
     /* Create the gradient. */
-    background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(21,161,66,1) 50%, rgba(21,161,66,1) 72%, rgba(21,161,66,1) 72%);
+    background: linear-gradient(90deg, rgba(42,233,16,1) 0%, rgba(29,169,253,1) 50%, rgba(255,255,255,1) 100%);
     background-size: 200% auto;
     
  
@@ -395,12 +367,16 @@ overflow-y: hidden;
     
     /* Animate the text when loading the element. */
       /* This animates it on page load and when hovering out. */
-      animation: shine 1s linear forwards;
+      animation: shine 5s linear infinite;
    }
      
       @keyframes shine {
-        to {
-          background-position: 200% center;
+        0% {
+          filter: hue-rotate(0deg);
+        }
+
+        100%{
+            filter: hue-rotate(360deg);
         }
       }
 

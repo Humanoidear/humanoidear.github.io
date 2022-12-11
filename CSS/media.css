@@ -27,6 +27,24 @@
     }
 }
 
+@media screen and (max-height:600px){
+    .scrollers{
+        left:0;
+        position:fixed;
+        width:1500px;
+        height:600px;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+@media screen and (max-height:400px){
+    .first{
+        display:none;
+    }
+}
+
 @media screen and (max-width: 850px) {
     
     .blockers {
@@ -200,10 +218,15 @@ transition: 0.5s;
 
   .startbox{
     border-radius:8px;
-    width:93%;
+    width:90%;
     position: absolute;
-    left:0;
+    left:50%;
+    transform:translate(-50%,0);
     top:130%;
+   }
+
+   .startbox:hover{
+    transform:translate(-50%,0) scale(100%);
    }
 
   .filtershome{
