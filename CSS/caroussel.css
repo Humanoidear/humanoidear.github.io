@@ -365,7 +365,7 @@ overflow-y: hidden;
     right:0;
     position:fixed;
     text-decoration-color: #15a142;
-    z-index:10000;
+    z-index:1000;
     transition:0.5s;
    }
 
