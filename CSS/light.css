@@ -33,10 +33,11 @@ h2 {
     font-family: Ginto;
     font-weight: normal;
     color: rgb(255, 255, 255);
-    font-size: 2fr;
+    font-size: 30px;
     text-align: center;
-    margin-left: 2px;
-    margin-top: 60px;
+   left:50%;
+   transform: translate(-50%,0);
+    top: 60px;
     position: relative;
     z-index: 100;
     transition: 0.5s;
@@ -580,7 +581,6 @@ input{
     border:3px solid white;
     color:white;
     opacity: 0.8;
-    transition: 0.5s;
     background-color: rgba(0, 0, 0, 0.229);
     backdrop-filter: blur(18px);
  }
