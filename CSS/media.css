@@ -43,6 +43,26 @@
     .first{
         display:none;
     }
+
+    .nowayimg{
+        display:none;
+    }
+}
+
+@media screen and (max-height:800px){
+    .nowayhead{
+        display:none;
+    }
+
+    .nowayimg{
+        display:none;
+    }
+
+    .nowayinfo{
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+    }
 }
 
 @media screen and (max-width: 850px) {
@@ -282,5 +302,12 @@ overflow-y: hidden;
         left:50%;
         top:50%;
         transform: translate(-50%,-50%);
+    }
+}
+
+@supports (contain: paint) {
+
+    .noway{
+        display:none;
     }
 }
