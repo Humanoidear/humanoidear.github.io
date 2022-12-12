@@ -57,8 +57,9 @@ p {
 
 .first {
     height: 7%;
-    width: 70px;
-    left:4%;
+    width: 40px;
+    left:50%;
+    transform: translate(-50%,0);
     bottom:25px;
     overflow: hidden;
     position:fixed;
@@ -167,17 +168,14 @@ p {
 .downarrow {
     position: absolute;
     left:0;
-    padding: 30px;
-    animation-name: down;
-    animation-name: down2;
-    animation-delay: 3s;
+    animation-name:downarrow;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    opacity: 0%;
+    animation-timing-function: linear;
     bottom: 0;
-    margin-bottom: 50px;
     z-index: 10;
     transition: 0.5s;
+    width:100%;
 }
 
 /* Start particle engine (will be made disablable).*/
