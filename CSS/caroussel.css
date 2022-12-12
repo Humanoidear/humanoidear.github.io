@@ -489,6 +489,7 @@
     100%{
         transform: translate(-50%,-50%) scale(150%);
         opacity:0;
+        z-index:0;
     }
 }
 
@@ -526,5 +527,6 @@
     }
     100%{
         opacity:0;
+        z-index:0;
     }
 }
