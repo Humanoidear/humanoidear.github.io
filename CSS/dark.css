@@ -4,7 +4,7 @@ html {
 
     scroll-behavior: smooth;
     text-decoration: none;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .button {
@@ -167,6 +167,7 @@ p {
 /* Arrow in website that points downwards.*/
 
 .downarrow {
+    display:none;
     position: absolute;
     left:0;
     animation-name:downarrow;

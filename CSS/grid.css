@@ -37,6 +37,8 @@ html::-webkit-scrollbar {
     color: rgb(255, 255, 255);
     border-radius: 20px;
     overflow:hidden;
+    transform: scale(100%) translate(0,0px);
+    transition:0.3s;
 }
 
 .es:before {

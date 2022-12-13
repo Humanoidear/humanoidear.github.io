@@ -1,6 +1,9 @@
     /* Interactive imagescrollers caroussel*/
-
    
+    ::-webkit-scrollbar {
+        width: 0px;
+      }
+
     .fadeout{
         width:200px;
         height:100%;
@@ -72,16 +75,6 @@
     animation-fill-mode: forwards;
    }
 
-   @keyframes uptemp{
-    0% {
-        left:0%;
-    }
-
-    100%{
-        left:-100%;
-    }
-   }
-
    .ticker1{
     width:50%;
     height:100%;
@@ -94,31 +87,6 @@
     border-radius: 20px;
     opacity: 0;
    }
-
-
-   
-   @keyframes up{
-    0% {
-        left:100%;
-        opacity: 1;
-    }
-
-    100%{
-        left:-100%;
-        opacity: 1;
-    }
-   }
-
-   @keyframes up2{
-    0% {
-        left:100%;
-    }
-
-    100%{
-        left:-100%;
-    }
-   }
-
 
    .ticker2{
     width:50%;
@@ -166,39 +134,6 @@
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-delay:20s;
-   }
-
-   @keyframes down{
-    0% {
-        left:-100%;
-    }
-
-    100%{
-        left:100%;
-    }
-   }
-
-
-   @keyframes downtemp{
-    0% {
-        left:0%;
-    }
-
-    100%{
-        left:100%;
-    }
-   }
-
-   @keyframes down2{
-    0% {
-        opacity:1;
-        left:-100%;
-    }
-
-    100%{
-        opacity:1;
-        left:100%;
-    }
    }
 
    .recom1{
@@ -294,7 +229,7 @@
         animation
    }
 
-   .startbox{
+.startbox{
     border-radius:8px;
     width:94%;
     position: absolute;
@@ -302,9 +237,7 @@
     transition:0.5s;
    }
 
- 
-
-   .startbox:hover{
+ .startbox:hover{
     transform: scale(101%);
     transition: 0.5s;
    }
@@ -351,69 +284,15 @@
    }
 
    .gradient-text {
-    /* Fallback: Set a background color. */
     background-color: #CA4246;
-    
-    /* Create the gradient. */
     background: linear-gradient(90deg, rgba(42,233,16,1) 0%, rgba(29,169,253,1) 50%, rgba(255,255,255,1) 100%);
     background-size: 200% auto;
-    
- 
-
-  
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
-    
-    /* Animate the text when loading the element. */
-      /* This animates it on page load and when hovering out. */
-      animation: shine 5s linear infinite;
+      animation: gradient 5s linear infinite;
    }
 
-   .gradient-text2 {
-    /* Fallback: Set a background color. */
-    background-color: #CA4246;
-    
-    /* Create the gradient. */
-    background: linear-gradient(90deg, rgba(188,252,255,1) 0%, rgba(0,239,255,1) 50%, rgba(0,97,255,1) 100%);
-    background-size: 200% auto;
-    
- 
-
-  
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    
-    /* Animate the text when loading the element. */
-      /* This animates it on page load and when hovering out. */
-      animation: shine 15s linear infinite;
-   }
-
-   .gradient-text3 {
-    /* Fallback: Set a background color. */
-    background-color: #CA4246;
-    
-    /* Create the gradient. */
-    background: linear-gradient(90deg, rgba(255,188,188,1) 0%, rgba(228,101,101,1) 50%, rgba(255,0,0,1) 100%);
-    background-size: 200% auto;
-    
- 
-
-  
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    
-    /* Animate the text when loading the element. */
-      /* This animates it on page load and when hovering out. */
-      animation: shine 15s linear infinite;
-   }
-     
-      @keyframes shine {
+      @keyframes gradient {
         0% {
           filter: hue-rotate(0deg);
         }
@@ -434,31 +313,6 @@
         z-index:100000;
         display:block;
     }
-
-      @supports (not (-webkit-hyphens:none)) {
-    
-    .noway{
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
-    position:fixed;
-    background-color:#3434349d;
-    backdrop-filter: blur(28px);
-    z-index:10000000000000;
-    display:none;
-} 
-
-.grid{
-    display:grid;
-}
-
-.scrollers{
-    display:block;
-}
-
-
-}
 
 .nowayhead{
     font-family: gintobold;
@@ -563,3 +417,69 @@
         z-index:0;
     }
 }
+
+@keyframes uptemp{
+    0% {
+        left:0%;
+    }
+
+    100%{
+        left:-100%;
+    }
+   }
+   
+   @keyframes up{
+    0% {
+        left:100%;
+        opacity: 1;
+    }
+
+    100%{
+        left:-100%;
+        opacity: 1;
+    }
+   }
+
+   @keyframes up2{
+    0% {
+        left:100%;
+    }
+
+    100%{
+        left:-100%;
+    }
+   }
+
+
+   @keyframes down{
+    0% {
+        left:-100%;
+    }
+
+    100%{
+        left:100%;
+    }
+   }
+
+
+   @keyframes downtemp{
+    0% {
+        left:0%;
+    }
+
+    100%{
+        left:100%;
+    }
+   }
+
+   @keyframes down2{
+    0% {
+        opacity:1;
+        left:-100%;
+    }
+
+    100%{
+        opacity:1;
+        left:100%;
+    }
+   }
