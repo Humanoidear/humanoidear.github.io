@@ -37,6 +37,10 @@
         top:50%;
         transform: translate(-50%,-50%);
     }
+
+    .nowayimg2{
+       filter: brightness(0.3);
+    }
 }
 
 @media screen and (max-height:400px){

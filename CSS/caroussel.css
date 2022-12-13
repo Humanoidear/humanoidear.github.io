@@ -43,6 +43,7 @@
     overflow:hidden;
     transform:scale(200vh);
     opacity: 0.2;
+    display:none;
    }
 
    .scroller-one{
@@ -429,7 +430,7 @@
         left:0;
         position:fixed;
         background-color:#3434349d;
-        backdrop-filter: blur(28px);
+        backdrop-filter: blur(28px);-
         z-index:100000;
         display:block;
     }
@@ -444,9 +445,20 @@
     position:fixed;
     background-color:#3434349d;
     backdrop-filter: blur(28px);
-    z-index:100000;
+    z-index:10000000000000;
     display:none;
-} }
+} 
+
+.grid{
+    display:grid;
+}
+
+.scrollers{
+    display:block;
+}
+
+
+}
 
 .nowayhead{
     font-family: gintobold;
@@ -489,11 +501,17 @@
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-
-    
+    animation-name: fadeforward;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
     animation-delay: 1s;
+}
+
+.nowayimg2{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
 }
 
 @keyframes fadeforward{
