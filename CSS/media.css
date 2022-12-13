@@ -285,9 +285,3 @@ overflow-y: hidden;
     }
 }
 
-@supports (contain: paint) {
-
-    .noway{
-        display:none;
-    }
-}

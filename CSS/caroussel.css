@@ -422,7 +422,21 @@
         }
       }
 
-.noway{
+      .noway{
+        width:100%;
+        height:100%;
+        top:0;
+        left:0;
+        position:fixed;
+        background-color:#3434349d;
+        backdrop-filter: blur(28px);
+        z-index:100000;
+        display:block;
+    }
+
+      @supports (not (-webkit-hyphens:none)) {
+    
+    .noway{
     width:100%;
     height:100%;
     top:0;
@@ -431,8 +445,8 @@
     background-color:#3434349d;
     backdrop-filter: blur(28px);
     z-index:100000;
-    display:block;
-}
+    display:none;
+} }
 
 .nowayhead{
     font-family: gintobold;
@@ -458,9 +472,9 @@
 
 .nowayholder{
     background-color: white;
-    width:80%;
+    width:90%;
     height:80%;
-    border-radius:18px;
+    border-radius:8px;
     position: absolute;
     left:50%;
     top:50%;
@@ -475,7 +489,8 @@
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-    animation-name: fadeforward;
+
+    
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
     animation-delay: 1s;
