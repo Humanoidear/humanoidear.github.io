@@ -455,7 +455,7 @@
     left:50%;
     top:50px;
     transform:translate(-50%,0);
-    color:black;
+    color:white;
 }
 
 .nowayinfo{
@@ -466,12 +466,12 @@
     left:50%;
     bottom:50px;
     transform:translate(-50%,0);
-    color:black;
+    color:white;
     text-align:center;
 }
 
 .nowayholder{
-    background-color: white;
+    background-color: black;
     width:90%;
     height:80%;
     border-radius:8px;
