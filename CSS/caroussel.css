@@ -380,18 +380,10 @@
     }
 }
 
-.downbrowser{
-    text-decoration: none;
-    text-decoration-color: #15a142;
-    text-decoration-thickness: 0.1px;
-    transition: 0.5s;
-}
-
 .downbrowser:hover{
     text-decoration: underline;
     text-decoration-color: #15a142;
     text-decoration-thickness: 4px;
-    transition:0.5s;
 }
 
 .branding{
