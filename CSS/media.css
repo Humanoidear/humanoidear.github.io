@@ -287,6 +287,15 @@ overflow-y: hidden;
     transition:0.5s;
     text-align:center;
 }
+
+.pdfbox{
+    display:none;
+}
+
+.pdfprev{
+    width:0px;
+    height:0px;
+}
 }
 
 @media screen and (min-width: 2000px) {
