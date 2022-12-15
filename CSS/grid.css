@@ -234,7 +234,7 @@ f.sticky{
 
 @supports (-moz-appearance:none){
     .grid{
-        width:35%;
+        width:30%;
     } 
   }
 
