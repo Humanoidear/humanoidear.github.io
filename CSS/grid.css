@@ -74,7 +74,7 @@ a {
 }
 
 .es:hover {
-    box-shadow: 0px 0px 50px 1px white;
+    box-shadow: 0px 0px 50px 1px rgb(197, 197, 197);
     transform: scale(105%) translate(0,-10px);
     z-index: 1;
     transition:0.5s;
@@ -93,7 +93,7 @@ a {
     transition:0.5s;
     z-index:10000000000000000;
     animation: move 0.5s forwards;
-    animation-delay: 5s;
+    animation-delay: 3s;
 }
 
 .es:hover .tags{
@@ -109,7 +109,7 @@ a {
     transition:0.5s;
     z-index:10000000000;
     animation: move 0.5s forwards;
-    animation-delay: 5s;
+    animation-delay: 3s;
 }
 
 .es:hover .dwnld2{
@@ -482,7 +482,7 @@ iframe{
     z-index:1;
     animation: fadein 0.3s forwards;
     opacity:0;
-    animation-delay: 5s;
+    animation-delay: 3s;
 }
 
 @keyframes fadein{
@@ -514,7 +514,7 @@ iframe{
 }
 
 .blurback{
-    width:100%;
+    width:90%;
     height:180px;
     background-color: rgba(37, 37, 37, 0.717);
     backdrop-filter: blur(18px);
@@ -526,28 +526,26 @@ iframe{
 
 .pdfbox{
     width:100%;
-    height:110px;
-    left:0;
+    height:120px;
+    left:50%;
     bottom:0;
-    border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
-    z-index:1000000000;
-    background-color:#e6e6e6;
+    z-index:100;
+    background-color:#ffffff;
     position:absolute;
-    transform: translate(0px, 200px);
+    transform: translate(-50%, 220px);
 }
 
 .es:hover .pdfbox{
     animation: downup 0.5s forwards;
-    animation-delay: 5s;
+    animation-delay: 3s;
 }
 
 @keyframes downup{
     0%{
-        transform: translate(0px, 200px);
+        transform: translate(-50%, 220px);
     }
     100%{
-        transform: translate(0px, 0px);
+        transform: translate(-50%, 0px);
     }
 }
 
