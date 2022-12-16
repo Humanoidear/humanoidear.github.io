@@ -93,7 +93,7 @@ a {
     transition:0.5s;
     z-index:10000000000000000;
     animation: move 0.5s forwards;
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
 
 .es:hover .tags{
@@ -109,7 +109,7 @@ a {
     transition:0.5s;
     z-index:10000000000;
     animation: move 0.5s forwards;
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
 
 .es:hover .dwnld2{
@@ -482,7 +482,7 @@ iframe{
     z-index:1;
     animation: fadein 0.3s forwards;
     opacity:0;
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
 
 @keyframes fadein{
@@ -537,7 +537,7 @@ iframe{
 
 .es:hover .pdfbox{
     animation: downup 0.5s forwards;
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
 
 @keyframes downup{
