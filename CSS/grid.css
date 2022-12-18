@@ -259,14 +259,6 @@ f.sticky{
     } 
   }
 
-  
-@supports not (-moz-appearance:none){
-    .filters{
-        display:none;
-    }
-  }
-
-
 .dwnld1 {
     right: 0%;
     position: absolute;
@@ -368,7 +360,7 @@ f.sticky{
     height:50px;
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 20px));
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px;
     overflow:scroll;
     left:50%;
     transition: 0.5s;
@@ -557,3 +549,14 @@ iframe{
     z-index:1000;
     left:0;
 }
+
+
+  
+@supports not (-moz-appearance:none){
+    .esfilter{
+        height:45px;
+    }
+    .filterholder{
+        height:65px
+    }
+  }
