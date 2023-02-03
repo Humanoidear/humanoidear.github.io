@@ -591,3 +591,8 @@ input{
     text-decoration: underline;
     text-decoration-thickness: 3px;
  }
+
+ #disqus_thread{
+    width:1000px;
+    height:100px;
+ }
