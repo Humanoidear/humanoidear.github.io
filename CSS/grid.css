@@ -126,6 +126,7 @@ a {
     z-index:0;
     transform: scale(105%);
     transition:0.5s;
+    object-fit: cover;
 }
 
 .recname2 {
