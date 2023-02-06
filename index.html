@@ -29,24 +29,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2688562202684957"
      crossorigin="anonymous"></script>
-     
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://humanoidear-github-io.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
+    <script src="./hover3D.js"></script>
 
 </head>
 
@@ -1108,12 +1091,13 @@
                                     <div class="tolink"></div>
                                     <div class="pdfbox"></div>                        
                                     <iframe class="pdfprev" src="/Assets/PDF/PhyT2U3.pdf"></iframe>
-                                <p class="recname2 ">Filosofía</p>
+                                
                                 <p class="recinfo2 ">2023 | Unidad 3</p>
                                 <a href="./Assets/PDF/PhyT2U3.pdf ">
                                     <img class="dwnld2 " src="./Assets/Images/dwnld.png " width="30px ">
                                 </a>
                             </a>
+                            <p class="recname2 ">Filosofía</p>
                         </div>
 
                         <div class="es">
@@ -1263,7 +1247,9 @@
 </div>
 
 
-
+<script>
+    let myHover3D = new Hover3D(".es"); // Yep! That's it.
+</script>
 
 </body>
 
