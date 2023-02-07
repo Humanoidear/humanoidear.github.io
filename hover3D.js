@@ -7,7 +7,7 @@ class Hover3D
         this.yOffset = 10;
         this.attack = 0.1;
         this.release = 0.5;
-        this.perspective = 500;
+        this.perspective = 700;
         this.create();
     }
 
