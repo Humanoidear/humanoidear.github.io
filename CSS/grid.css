@@ -31,7 +31,10 @@ html::-webkit-scrollbar {
     grid-template-columns: repeat(auto-fit, minmax(350px, 100px));
 }
 
-
+.es:active{
+    scale: 97%;
+    transition:0.2s;
+}
 
 .es:before {
     content: " ";
@@ -554,6 +557,7 @@ iframe{
     transition: box-shadow 0.1s;
     transform-style: preserve-3d;
     cursor: pointer;
+    scale: 100%;
 }
 
 
