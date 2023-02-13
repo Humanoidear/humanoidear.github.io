@@ -1,6 +1,6 @@
 html::-webkit-scrollbar {
     display: none;
-  }
+}
 
 .esq {
     margin-left: 5%;
@@ -32,7 +32,7 @@ html::-webkit-scrollbar {
 }
 
 .es:active{
-    scale: 97%;
+    scale: 98%;
     transition:0.2s;
 }
 
@@ -495,10 +495,7 @@ iframe{
     font-family:gintobold;
     font-size:30px;
     top:0;
-    left:0; <a href="./Assets/PDF/phFormU4.pdf">
-                                <div class="tolink"></div>
-                                <div class="pdfbox"></div>                        
-                                <iframe class="pdfprev" src="/Assets/PDF/phFormU4.pdf"></iframe>
+    left:0;
     z-index:10000000000000;
 }
 
@@ -559,14 +556,3 @@ iframe{
     cursor: pointer;
     scale: 100%;
 }
-
-
-  
-@supports not (-moz-appearance:none){
-    .esfilter{
-        height:45px;
-    }
-    .filterholder{
-        height:65px
-    }
-  }
