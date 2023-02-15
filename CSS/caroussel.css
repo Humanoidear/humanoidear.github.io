@@ -287,9 +287,9 @@
     background-color: #CA4246;
     background: linear-gradient(90deg, rgba(42,233,16,1) 0%, rgba(29,169,253,1) 50%, rgba(255,255,255,1) 100%);
     background-size: 200% auto;
-    --webkit-background-clip: text;
-    --webkit-text-fill-color: transparent; 
-      animation: gradient 5s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    animation: gradient 5s linear infinite;
    }
 
       @keyframes gradient {
