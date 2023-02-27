@@ -336,7 +336,8 @@ p {
     height:110%;
     opacity:0.8;
     z-index:0;
-    position:absolute;
+    position:fixed;
+    top:0;
     left:0;
     transition:0.5s;
 }
@@ -595,6 +596,7 @@ input{
  .bannerholder{
     background-color: #24303b86 ;
     backdrop-filter: blur(8px);
+    box-shadow: #181818 0px 0px 8px;
     width: 480px;
     height:76px;
     border-radius:8px;

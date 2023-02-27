@@ -19,16 +19,31 @@ html::-webkit-scrollbar {
     margin-top: 10vh;
 }
 
+.bgimg{
+    border-radius:18px;
+    background-size: cover;
+    top:0;
+    left:0;
+    position:absolute;
+    filter:blur(8px) opacity(0.3);
+    scale: 120%;
+    width:95%;
+    height:90%;
+
+}
+
 .grid {
     top: -15px;
-    left: 5%;
-    padding-bottom:20px;
-    width:95%;
-    height:100%;
+    left: 3%;
+    padding:30px;
+    width:90%;
+    overflow: scroll;
     position: relative;
-    display: none;
+    display: flex;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 100px));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    border-radius: 18px;
+    overflow:hidden;
 }
 
 .es:active{
@@ -258,7 +273,7 @@ f.sticky{
 
 @supports (-moz-appearance:none){
     .grid{
-        width:30%;
+
     } 
   }
 
@@ -378,12 +393,12 @@ position: absolute;
     border:3px solid white;
     backdrop-filter: blur(20px);
     color: rgb(255, 255, 255);
+    height:43px;
     border-radius: 8px;
     transition: 0.5s;
 }
 
 .esfilter:hover {
-    transform: scale(105%);
     box-shadow: 0px 0px 10px #121212;
     filter: brightness(115%);
     transition: 0.5s;
