@@ -57,3 +57,16 @@
     width:100%;
   }
 }
+
+.newsholder{
+    width:45%;
+    position:absolute;
+    right:0.7%;
+    top:2%;
+    height:100%;
+    overflow:scroll;
+    background-color:#051923;
+    padding:10px;
+    margin:10px;
+    border-radius:8px;
+}

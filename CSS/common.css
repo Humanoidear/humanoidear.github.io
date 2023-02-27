@@ -659,6 +659,11 @@ input{
  }
 
  #disqus_thread{
-    width:1000px;
-    height:100px;
+width:48%;
+top:50px;
+left:2%;
+position:relative;
+height:100%;
+font-family: ginto;
+color:black;
  }

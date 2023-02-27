@@ -20,7 +20,6 @@
     <link rel="stylesheet" type="text/css" href="./CSS/header.css" />
     <link rel="stylesheet" type="text/css" href="./CSS/pdf.css" />
     <link rel="stylesheet" type="text/css" href="./CSS/texts.css" />
-    <link rel="stylesheet" type="text/css" href="./CSS/grid.css" />
     <link rel="stylesheet" type="text/css" href="./CSS/texts.css" />
     <link rel="stylesheet" type="text/css" href="./CSS/light.css" media="(prefers-color-scheme: light)" />
     <link rel="stylesheet" type="text/css" href="./CSS/dark.css" media="(prefers-color-scheme: dark)" />
@@ -41,8 +40,12 @@
 
     <div class="blogholder">
         <div class="textholder">
-        <h1 style="color:black; font-size:45px;">Novedades:</h1>
-        <h2 class="mainbody" style="color:black; top: 100px; text-align:left;">Con la nueva versión de la web traemos las siguientes novedades: </br></br>
+
+            <div id="disqus_thread"></div>  
+
+            <div class="newsholder">
+        <h1 style="color:white; font-size:45px;">Novedades:</h1>
+        <h2 class="mainbody" style="color:white; top: 100px; text-align:left;">Con la nueva versión de la web traemos las siguientes novedades: </br></br>
             -Una nueva página de entrada que prioriza la búsqueda de esquemas y refuerza la marca, dejando los efectos visuales en un segundo plano para que no resulten molestos. </br></br> <img src="/Assets/Images/main.jpeg" class="blogimg"> </br></br> 
             -Introducimos "Tags", una forma de ver los datos básicos de un documento antes de abrirlo, para poder decidir con facilidad: </br></br> <img src="/Assets/Images/tags.jpeg" class="blogimg">  </br></br> 
             <img src="/Assets/Images/trimimg.jpeg" class="small"> Indica el trimestre al que pertenece el documento. </br></br>
@@ -52,10 +55,19 @@
             <img src="/Assets/Images/processimg.jpeg" class="small"> El documento todavía no esta listo. </br></br></br></br>
             -Nuevos filtros para encontras las asignaturas de una forma fácil e intuitiva, siempre manteniendo su simplicidad y usabilidad. </br></br>
             <img src="/Assets/Images/filters.jpeg" class="blogimg">
-
+        </div>
 
         </h2>
         </div>
+   
+<script>
+    (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://humanoidear-github-io.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
         
     <div class="ender">
         <img class="logoend2 " src="../Assets/Images/logo.png " width="90px ">
@@ -72,14 +84,10 @@
 
 </html>
 </div>
-
-
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
         <script src="pdfobject.js "></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js "></script>
-        <script type="text/javascript " src="./JS/index.js "></script>
-        <script type="text/javascript " src="./JS/particles.js " "></script>
-        <script type="text/javascript " src="./JS/app.js " "></script>
         <link rel="stylesheet" type="text/css" href="./CSS/caroussel.css" />
         <link rel="stylesheet" type="text/css" href="./CSS/media.css" />
 
