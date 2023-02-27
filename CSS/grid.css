@@ -91,6 +91,12 @@ a {
     animation-delay: 2s;
 }
 
+.es:hover .collabstar{
+    position:absolute;
+    right:22%;
+    filter: invert(1);
+ }
+
 .es:hover .tags{
     transition:0.5s;
     z-index:100000000;

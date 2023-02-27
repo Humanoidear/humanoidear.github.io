@@ -58,6 +58,10 @@ html{
     .nowayimg2{
        filter: brightness(0.3);
     }
+
+    .bannerholder{
+        display:none;
+    }
 }
 
 @media screen and (max-height:400px){
@@ -67,6 +71,26 @@ html{
 }
 
 @media screen and (max-width: 850px) {
+
+    .bannerholder{
+        width:100%;
+        top:0;
+        left:0;
+        border-radius:0px;
+    }
+
+    .bannerholder:hover .bannerlink{
+        border-radius:0px;
+    }
+
+    .bannerdesc{
+        font-size: 14px;
+    }
+
+    .bannerlink{
+        border-radius:0px;
+        width:100%;
+    }
 
     .scrollers{
         left:0;

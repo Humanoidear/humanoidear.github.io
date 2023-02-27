@@ -592,6 +592,70 @@ input{
     text-decoration-thickness: 3px;
  }
 
+ .bannerholder{
+    background-color: #24303b86 ;
+    backdrop-filter: blur(8px);
+    width: 480px;
+    height:76px;
+    border-radius:8px;
+    position:fixed;
+    top:1%;
+    right:-50%;
+    padding:20px;
+    z-index:1000;
+    animation-name:rightleft;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay:3s;
+    transition:0.5s;
+ }
+
+ .bannerholder:hover{
+    height:40px;
+ }
+
+ .bannerholder:hover .bannerlink{
+    height:51px;
+    padding-top:29px;
+    font-size: 23px;
+    background-color:#636669;
+    border-radius:8px;
+    transition:0.5s;
+ }
+
+ @keyframes rightleft{
+    0% {right:-50%;}
+    100%{right:1%;}
+ }
+
+ .bannerhead{
+    color:white;
+    font-family: gintobold;
+    font-size: 20px;
+ }
+
+ .bannerdesc{
+    color:white;
+    font-family:ginto;
+    margin-top:10px;
+ }
+
+ .bannerlink{
+    color:white;
+    font-family:ginto;
+    margin-top:10px;
+    bottom:0; width:520px; border-bottom-left-radius:8px; border-bottom-right-radius:8px;  left:0px; height:23px; padding-top:10px; position:absolute; text-align:center; background-color:#9ea5ac; color:rgb(255, 255, 255);
+    transition:0.5s;
+ }
+
+ .collabstar{
+    position:absolute;
+    z-index:100000000000000;
+    top:5%;
+    right:-7%;
+    filter: invert(1);
+ }
+
  #disqus_thread{
     width:1000px;
     height:100px;
