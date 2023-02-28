@@ -666,4 +666,20 @@ position:relative;
 height:100%;
 font-family: ginto;
 color:black;
- }
+}
+
+.macvers{
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius:18px;
+    background-color:#121212b3;
+    backdrop-filter: blur(8px);
+    position: absolute;
+    bottom:-178px;
+    left:50%;
+    transform: translate(-50%,0);
+    color:white;
+    font-family:ginto;
+    display:none;
+}

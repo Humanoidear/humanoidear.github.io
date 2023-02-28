@@ -41,7 +41,7 @@ html::-webkit-scrollbar {
     position: relative;
     display: flex;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     border-radius: 18px;
     overflow:hidden;
 }
@@ -85,7 +85,7 @@ a {
 
 .es:hover {
     box-shadow: 0px 0px 50px 1px rgb(197, 197, 197);
-    transform:scale(105%) translate(0,-10px);
+    transform:translate(0,-10px);
     z-index: 1;
     transition:0.5s;
 }
@@ -97,12 +97,8 @@ a {
 }
 
 .es:hover .recname2{
-    top:40%;
-    right:10%;
-    text-align: center;
-    transition:0.5s;
-    z-index:10000000000000000;
-    animation: move 0.5s forwards;
+    font-size:40px;
+    animation: move 1s forwards;
     animation-delay: 2s;
 }
 
@@ -119,13 +115,9 @@ a {
 }
 
 .es:hover .recinfo2{
-    top:50%;
-    right:-17%;
-    text-align: center;
-    transition:0.5s;
-    z-index:10000000000;
-    animation: move 0.5s forwards;
+    animation: move 1s forwards;
     animation-delay: 2s;
+
 }
 
 .es:hover .dwnld2{
@@ -146,39 +138,74 @@ a {
 }
 
 .recname2 {
-    left:10%;
     font-family: gintobold;
     font-size: 30px;
-    top:65%;
     color: white;
-    position:absolute;
+    position: absolute;
     text-decoration: none;
+    text-align: center;
     z-index:10000000;
     transition:0.5s;
-    transform:;
+    left:50%;
+    transform: translate(-50%,0);
+    width:100%;
+    top:0;
 }
+
+.namehold{
+    left:50%;
+    transform:translate(-50%,0);
+    bottom:10%;
+    position:absolute;
+    z-index: 1000000000000;
+    width:100%;
+    height:23%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.es:hover .namehold{
+    left:50%;
+    transform:translate(-50%,0);
+    bottom:2%;
+    position:absolute;
+    transition: 0.5s;
+    width:100%;
+    height:60%;
+}
+
 
 @keyframes move{
     0%{
         color:white;
-        transform:translate(0px,0px);
     }
     100%{
         color:black;
-        transform:translate(0px,170px);
+    }
+}
+
+@keyframes move2{
+    0%{
+        height:60%;
+    }
+    100%{
+        height:30%;
+
     }
 }
 
 .recinfo2 {
-    left:10%;
     font-family: ginto;
     font-size: 20px;
-    top: 75%;
     color: white;
-    position:absolute;
-    padding-right: 90px;
+    position: absolute;
+    text-align:center;
     z-index:1000000;
     transition:0.5s;
+    left:50%;
+    transform: translate(-50%,0);
+    width:90%;
+    bottom:-10px;
 }
 
 d{
@@ -202,6 +229,7 @@ f.sticky{
     position: absolute;
     margin-top: -70px;
     transition:0.5s;
+    display:none;
 }
 
 .dwnld2 {
@@ -299,10 +327,6 @@ f.sticky{
     filter: invert(1);
 }
 
-.es:hover body{
-    overflow:hidden;
-}
-
 .dwnld1:hover {
     transform: rotate(0deg);
 }
@@ -353,6 +377,7 @@ f.sticky{
     left:5%;
     height:50px;
     width:90%;
+    overflow:scroll;
     background-color: #202020b0;
     border-radius:8px;
     padding-top:10px;
@@ -372,23 +397,20 @@ f.sticky{
 
  .filterholder {
     padding-top: 10px;
-    padding-bottom:10px;
-    width:99%;
+    width:1550px;
     top:0;
-    height:50px;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+    height:60px;
     overflow:scroll;
-    left:50%;
+    left:8px;
     transition: 0.5s;
-    transform: translate(-50%,0);
     border-radius:8px;
 position: absolute;
 }
 
 .esfilter {
     transition: 0.5s;
+    width:150px;
+    display:inline-block;
     background-color: rgba(0, 0, 0, 0.229);
     border:3px solid white;
     backdrop-filter: blur(20px);
@@ -396,6 +418,7 @@ position: absolute;
     height:43px;
     border-radius: 8px;
     transition: 0.5s;
+    margin-right:10px;
 }
 
 .esfilter:hover {
@@ -488,7 +511,8 @@ iframe{
     bottom:0;
     left:0;
     display:block;
-    filter: blur(0px) brightness(1);
+    z-index: 0;
+    filter: blur(2px) brightness(0.8);
     z-index:1;
     animation: fadein 0.3s forwards;
     opacity:0;
@@ -533,6 +557,7 @@ iframe{
 
 .pdfbox{
     width:100%;
+    display:none;
     height:120px;
     left:50%;
     bottom:0;
@@ -567,13 +592,11 @@ iframe{
 
 .es {
     background: #f1f1f1;
-    backdrop-filter: blur(20px);
     color: rgb(255, 255, 255);
     border-radius: 20px;
     overflow:hidden;
     transition:0.3s;
     transition: box-shadow 0.1s;
-    transform-style: preserve-3d;
     cursor: pointer;
     scale: 100%;
 }
