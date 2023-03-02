@@ -9,3 +9,8 @@
     font-family: gintobold;
     src: url(/Assets/Fonts/Ginto\ Bold.ttf);
 }
+
+@font-face {
+    font-family: gintoblack;
+    src: url(/Assets/Fonts/Ginto\ Nord\ Black.ttf);
+}
