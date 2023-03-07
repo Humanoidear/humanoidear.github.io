@@ -1,0 +1,235 @@
+
+@media (max-width: 800px) {
+    .hero{
+        width:100%;
+        height:100%;
+        animation-name:none;
+    }    
+    .cube{
+        width:110%;
+        rotate:-2deg;
+        animation-name:goup;
+        animation-duration: 0.5s;
+        animation-delay: 4s;
+        animation-fill-mode: forwards;
+    }   
+    .main{
+        top:80%;
+        width:100%;
+        left:0;
+        height:85%;
+        transform:translate(0%,20%);
+        animation-name:goup2;
+        }
+
+    .itinerary{
+        position: relative;
+        top:0;
+        display:block;
+        width:100%;
+    }
+    .itn{
+        height:200px;
+        width:100%;
+        gap:5px;
+    }
+    .itnimg{
+        width:200px;
+    }
+    .itn:hover .itnname{
+       bottom:100%;
+       transition: 0.5s;
+    }
+    .itninfo{
+        display:none;
+    }
+    .resources{
+        margin-top:50px;
+    }
+    .resholder{
+        width:100%;
+    }
+    .res{
+        width:100%;
+    }
+    .intro2{
+        left:50%;
+        transform: translate(-50%,0);
+        top:0;
+        position:absoltue;
+    }
+    .intro3{
+        z-index:100000000000000000000000000;
+    }
+    .firstone2{
+        font-size: 40px;
+        text-align: center;
+        left:0;
+        position: absolute;
+        animation-name:godown;
+        animation-duration: 0.5s;
+        animation-delay: 4s;
+        animation-fill-mode: forwards;
+    }
+    .copyright{
+        animation-name: disappear;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+        animation-delay: 4s;
+        width:100%;
+    }
+
+    @keyframes disappear {
+        0%{
+            transform: translate(0%, 0%);
+            opacity:1;
+        }
+        100%{
+            transform: translate(-180%, 0%);
+            opacity:0;
+        }
+    }
+
+    @keyframes goup {
+        0%{
+            transform: translate(0%, 20%);
+        }
+        100%{
+            transform: translate(0%, -83%);
+        }
+    }
+
+    @keyframes goup2 {
+        0%{
+            transform: translate(0%, 20%);
+        }
+        100%{
+            transform: translate(0%, -80%);
+        }
+    }
+
+    @keyframes godown {
+        0%{
+            transform: translate(0%, -50%);
+        }
+        100%{
+            transform: translate(0%, 0%);
+        }
+    }
+
+    .namehold{
+        top:0;
+        height:100%;
+        width:100%;
+    }
+
+    .es:hover .namehold{
+        animation:none;
+        top:0;
+        width:100%;
+        height:100%;
+    }
+
+    .grid{
+        width:100%;
+        left:0;
+        position:relative;
+        display:block;
+        padding-bottom:25%;
+        margin-right:0;
+        margin-left:0;
+        margin-bottom:0px;
+        padding:0px;
+        padding-top:20px;
+    }
+
+    .es{
+        height:130px;
+        width:94%;
+        margin-bottom:20px;
+        margin-left:3%;
+        margin-right:3%;
+        z-index: 100000;
+        position: relative;
+    }
+    .tags{
+        top:-100px;
+        transition: 0.5s;
+    }
+    .recname2{
+        top:0%;
+        position:absolute;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 70%; 
+        overflow:hidden;
+    }
+    .recinfo2{
+        top:45%;
+        position:absolute;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 70%; 
+        overflow:hidden;
+    }
+    .dwnld2{
+        right:20px;
+        top:84%;
+        position:absolute;
+        transition: 0.5s;
+    }
+
+    .es:hover{
+        box-shadow: 0px 0px 50px 1px white;
+    transform: scale(105%) translate(0,0px);
+    z-index: 1;
+    transition:0.5s;
+    }
+
+.es:hover .recimg2{
+    transform: scale(130%) rotate(5deg);
+    transition:1s;
+}
+
+.es:hover .recname2{
+    display:none;
+}
+
+.es:hover .recinfo2{
+    display:none;
+}
+
+.es:hover .dwnld2{
+    right:20px;
+    top:100%;
+    position:absolute;
+    transition:0.5s;
+    transform: rotate(0deg);
+}
+
+.es:hover .tags{
+    top:25px;
+transition: 0.5s;
+}
+
+    .es1{
+    background-color:rgba(255, 255, 255, 0);
+    width:98%;
+    position: absolute;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0);
+  }
+
+  #multiple{
+    display:none;
+  }
+
+}
+
+@supports ( (-webkit-hyphens:none)) {
+    .ticker1-temp{
+        animation-name: none;
+    }
+    .ticker3-temp{
+        animation-name: none;
+    }
+} 

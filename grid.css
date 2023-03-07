@@ -1,0 +1,614 @@
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.esq {
+    margin-left: 5%;
+    color: white;
+    font-family: gintobold;
+    font-size: 80px;
+    margin-top: 10vh;
+    position: absolute;
+}
+
+.desc {
+    margin-left: 5%;
+    color: white;
+    font-family: ginto;
+    font-size: 30px;
+    margin-top: 10vh;
+}
+
+.bgimg{
+    border-radius:18px;
+    background-size: cover;
+    top:0;
+    left:0;
+    position:absolute;
+    filter:blur(8px) opacity(0.3);
+    scale: 120%;
+    width:95%;
+    height:90%;
+
+}
+
+.grid {
+    top: -15px;
+    left: 3%;
+    padding:30px;
+    width:90%;
+    overflow: scroll;
+    position: relative;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    border-radius: 18px;
+    overflow:hidden;
+}
+
+.es:active{
+    scale: 98%;
+    transition:0.2s;
+}
+
+.es:before {
+    content: " ";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 5px solid white;
+    border-radius:18px;
+    z-index:100000;
+    pointer-events: none;
+    transition:0.5s;
+  }
+
+  .es:hover:before {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 5px solid white;
+    border-radius:18px;
+    z-index:100000;
+    pointer-events: none;
+    transition:0.5s;
+  }
+
+a {
+    text-decoration: none;
+}
+
+.es:hover {
+    box-shadow: 0px 0px 50px 1px rgb(197, 197, 197);
+    transform:translate(0,-10px);
+    z-index: 1;
+    transition:0.5s;
+}
+
+.es:hover .recimg2{
+    transform: scale(130%) rotate(5deg);
+    filter:blur(5px) brightness(40%) ;
+    transition:1s;
+}
+
+.es:hover .recname2{
+    font-size:40px;
+    animation: move 1s forwards;
+    animation-delay: 2s;
+}
+
+.es:hover .collabstar{
+    position:absolute;
+    right:22%;
+    filter: invert(1);
+ }
+
+.es:hover .tags{
+    transition:0.5s;
+    z-index:100000000;
+    transform: translate(10px,-10px);
+}
+
+.es:hover .recinfo2{
+    animation: move 1s forwards;
+    animation-delay: 2s;
+
+}
+
+.es:hover .dwnld2{
+    top:80%;
+    left:-35%;
+    transition:0.5s;
+}
+
+.recimg2 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width:100%;
+    filter:blur(5px) brightness(80%);
+    z-index:0;
+    transform: scale(105%);
+    transition:0.5s;
+    object-fit: cover;
+}
+
+.recname2 {
+    font-family: gintobold;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    z-index:10000000;
+    transition:0.5s;
+    left:50%;
+    transform: translate(-50%,0);
+    width:100%;
+    top:0;
+}
+
+.namehold{
+    left:50%;
+    transform:translate(-50%,0);
+    bottom:10%;
+    position:absolute;
+    z-index: 1000000000000;
+    width:100%;
+    height:23%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.es:hover .namehold{
+    left:50%;
+    transform:translate(-50%,0);
+    bottom:2%;
+    position:absolute;
+    transition: 0.5s;
+    width:100%;
+    height:60%;
+}
+
+
+@keyframes move{
+    0%{
+        color:white;
+    }
+    100%{
+        color:black;
+    }
+}
+
+@keyframes move2{
+    0%{
+        height:60%;
+    }
+    100%{
+        height:30%;
+
+    }
+}
+
+.recinfo2 {
+    font-family: ginto;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    text-align:center;
+    z-index:1000000;
+    transition:0.5s;
+    left:50%;
+    transform: translate(-50%,0);
+    width:90%;
+    bottom:-10px;
+}
+
+d{
+    display:block;
+}
+
+d.sticky{
+    display:none;
+}
+
+f{
+    display:none;
+}
+
+f.sticky{
+    display:block;
+}
+
+.dwnld2 {
+    margin-left: 80%;
+    position: absolute;
+    margin-top: -70px;
+    transition:0.5s;
+    display:none;
+}
+
+.dwnld2 {
+    position: absolute;
+    transition: 0.5s;
+    z-index: 0;
+    top:86%;
+    padding: 10px;
+    border-radius: 10px;
+    transform: rotate(-90deg);
+    filter: invert(1);
+}
+
+.dwnld2:hover {
+    transform: scale(110%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.square3 {
+    width: 150%;
+    height: 100vh;
+    margin-top: -50px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    margin-left: -50px;
+    position: relative;
+    z-index: 0;
+}
+
+. {
+    top:200px;
+    position:relative;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    padding-bottom:0%;
+    z-index: 1;
+}
+
+
+.ocean2 {
+    margin-top: 33vh;
+    width: 100%;
+    position: absolute;
+    background: #ffffff;
+    z-index: 0;
+}
+
+.ocean3 {
+    width: 100%;
+    position: absolute;
+    background: #ffffff;
+    z-index: 0;
+}
+
+.moreimg {
+    margin-left: 35%;
+    margin-top: 50%;
+}
+
+.moreinfo {
+    padding: 20px;
+    margin-left: 2%;
+    color: black;
+    font-family: gintobold;
+    text-align: center;
+    font-size: 20px;
+}
+
+@supports (-moz-appearance:none){
+    .grid{
+
+    } 
+  }
+
+.dwnld1 {
+    right: 0%;
+    position: absolute;
+    margin-top: -70px;
+    transition:0.5s;
+    width:30px;
+    height:30px;
+}
+
+.dwnld1 {
+    position: absolute;
+    transition: 0.5s;
+    z-index: 100000000000000000000000000000000000000000000000000000000000;
+    top:85%;
+    transform: translate(0,-50%);
+    right:20px;
+    padding: 10px;
+    border-radius: 10px;
+    transform: rotate(-90deg);
+    filter: invert(1);
+}
+
+.dwnld1:hover {
+    transform: rotate(0deg);
+}
+
+
+
+  #multiple::before{
+    border: 0px solid white;
+  }
+
+  #multiple{
+    background-color:rgba(255, 255, 255, 0);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0);
+  }
+
+  
+
+.square3:hover .recname1{
+    transition:0.5s;
+    display:none;
+}
+
+.square3:hover .recname1{
+    transition:0.5s;
+    display:none;
+}
+
+
+ .searchbox{
+    top:30px;
+    width:100%;
+    position:absolute;
+    right:20px;
+    position:fixed;
+    z-index:1000000;
+ }
+
+ .subclass{
+    font-family:gintobold;
+    font-size:38px;
+    left:5%;
+    width:95%;
+    text-align:left;
+    position:relative;
+    margin-bottom:50px;
+ }
+
+ .filters{
+    position: absolute;
+    left:5%;
+    height:50px;
+    width:90%;
+    overflow:scroll;
+    background-color: #202020b0;
+    border-radius:8px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: 0.5s;
+    backdrop-filter: blur(8px);
+ }
+
+ filt.sticky{
+    bottom:18px;
+    transition: 0.5s;
+    z-index:100000000000;
+    width:80%;
+    left:5%;
+    position:fixed;
+ }
+
+ .filterholder {
+    padding-top: 10px;
+    width:1868px;
+    top:0;
+    height:60px;
+    overflow:scroll;
+    left:8px;
+    transition: 0.5s;
+    border-radius:8px;
+position: absolute;
+}
+
+.esfilter {
+    transition: 0.5s;
+    width:150px;
+    display:inline-block;
+    background-color: rgba(0, 0, 0, 0.229);
+    border:3px solid white;
+    backdrop-filter: blur(20px);
+    color: rgb(255, 255, 255);
+    height:43px;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin-right:10px;
+}
+
+.esfilter:hover {
+    box-shadow: 0px 0px 10px #121212;
+    filter: brightness(115%);
+    transition: 0.5s;
+}
+
+.recnamefilter {
+    font-family: gintobold;
+    font-size: 20px;
+    color: white;
+    position:absolute;
+    bottom:-20%;
+    left:50%;
+    transform: translate(-50%,0);
+    text-decoration: none;
+    transition:0.5s;
+    text-align:center;
+}
+
+.tags{
+    height:20px;
+    position:absolute;
+    top:35px;
+    right:35px;
+    display: flex;
+    gap:10px;
+    z-index:100000000;
+    transition: 0.5s;
+}
+
+.tag{
+    background-color: rgba(255, 255, 255, 0.645);
+    padding:8px;
+    padding-bottom:22px;
+    border-radius: 5px;
+    backdrop-filter: blur(20px);
+    font-family: ginto;
+    color:white;
+    top:0;
+}
+
+
+.tag:hover .explaintags{
+    width:280px;
+    top:40px;
+    right:0;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+    position: absolute;
+    background-color: #3f3f3f;
+    color:white;
+    display:blocK;
+    border-radius: 8px;
+    opacity:1;
+    transition: 0.5s;
+}
+
+.explaintags{
+    width:10px;
+    top:40px;
+    right:0;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+    display:none;
+    position: absolute;
+    background-color: #3f3f3f;
+    color:white;
+    border-radius: 8px;
+    opacity:0;
+    transition: 0.5s;
+}
+
+iframe{
+    position:absolute;
+    width:100%;
+    height:100%;
+    bottom:0;
+    left:0;
+    z-index:0;
+    display:none;
+    transform:scale(115%);
+}
+
+.es:hover iframe{
+    position:absolute;
+    bottom:0;
+    left:0;
+    display:block;
+    z-index: 0;
+    filter: blur(2px) brightness(0.8);
+    z-index:1;
+    animation: fadein 0.3s forwards;
+    opacity:0;
+    animation-delay: 2s;
+}
+
+@keyframes fadein{
+    0%{
+        opacity:0;
+        transform:scale(110%);
+    }
+    100%{
+        opacity:1;
+        transform:scale(115%);
+    }
+}
+
+.prevholder{
+    z-index:0;
+}
+
+.preview{
+    position:absolute;
+    color:black;
+    font-family:gintobold;
+    font-size:30px;
+    top:0;
+    left:0;
+    z-index:10000000000000;
+}
+
+.blurback{
+    width:90%;
+    height:180px;
+    background-color: rgba(37, 37, 37, 0.717);
+    backdrop-filter: blur(18px);
+    position:absolute;
+    top:50%;
+    transform:translate(-50%,-50%);
+    left:50%;
+}
+
+.pdfbox{
+    width:100%;
+    display:none;
+    height:120px;
+    left:50%;
+    bottom:0;
+    z-index:100;
+    background-color:#ffffff;
+    position:absolute;
+    transform: translate(-50%, 220px);
+}
+
+.es:hover .pdfbox{
+    animation: downup 0.5s forwards;
+    animation-delay: 2s;
+}
+
+@keyframes downup{
+    0%{
+        transform: translate(-50%, 220px);
+    }
+    100%{
+        transform: translate(-50%, 0px);
+    }
+}
+
+.tolink{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    z-index:1000;
+    left:0;
+}
+
+.es {
+    background: #f1f1f1;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    overflow:hidden;
+    transition:0.3s;
+    transition: box-shadow 0.1s;
+    cursor: pointer;
+    scale: 100%;
+    z-index: 100;
+}
+
+ .fade {
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    background: linear-gradient(180deg, rgba(255,216,144,0) 0%, rgba(0,18,18,1) 100%);
+    border-radius:18px;
+    z-index: 1;
+}

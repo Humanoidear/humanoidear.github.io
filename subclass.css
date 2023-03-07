@@ -1,0 +1,65 @@
+.firstone3{
+    font-size: 60px;
+    right:0;
+    font-family: gintobold;
+    color:white;
+    position: absolute;
+}
+
+.gradient{
+    width:100%;
+    height:75%;
+    top:0;
+    left:0;
+    position:absolute;
+    z-index: 0;
+    opacity: 0.4;
+}
+
+.intro3{
+    right:200px;
+    top:0;
+    width:100px;
+    height:50px;
+    position: fixed;
+    z-index: 100000;
+}
+
+.spacer{
+    height:200px;
+    width:100%;
+}
+
+.backhome{
+    top:100px;
+    right:35px;
+    position: fixed;
+    color:white;
+    font-family: ginto;
+    animation-name: slideup;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    display:none;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: #12121297;
+    backdrop-filter: blur(8px);
+    border-radius: 18px;
+    z-index: 1000000;
+}
+
+.intro3:hover + .backhome{
+    display: block;
+}
+
+@keyframes slideup{
+    0%{
+        transform:translate(0px,-5px);
+        opacity:0;
+    }
+    100%{
+        transform:translate(0px,0px);
+        opacity:1;
+    }
+}
