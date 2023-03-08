@@ -4,7 +4,7 @@ html {
 
 .intro{
     width:100%;
-    height: 270px;
+    height: 230px;
     position: absolute;
     top:50%;
     left:5%;
@@ -12,11 +12,19 @@ html {
     transform: translate(0,-50%);
     color:#ffffff;
     font-family: ginto;
-    font-size:20px;
+    font-size:100%;
     animation-name: hide3;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-delay: 4s;
+}
+
+.res:hover .resname{
+    color:#ffffff;
+}
+
+.res:hover .resinfo{
+    color:#ffffff;
 }
 
 .intro2{
@@ -378,6 +386,27 @@ background: linear-gradient(60deg, rgba(0,33,142,1) 0%, rgba(14,248,255,1) 100%)
 .resbg4{
     background: rgb(185,185,185);
     background: linear-gradient(-60deg, rgba(185,185,185,1) 0%, rgba(76,83,74,1) 100%); 
+}
+
+
+.resbg5{
+    background: rgb(185,185,185);
+    background: linear-gradient(-60deg, rgb(149, 141, 29) 0%, rgb(230, 226, 13) 100%); 
+}
+
+.resbg6{
+    background: rgb(185,185,185);
+    background: linear-gradient(-60deg, rgb(159, 208, 216) 0%, rgb(15, 134, 149) 100%); 
+}
+
+.resbg7{
+    background: rgb(185,185,185);
+    background: linear-gradient(-60deg, rgb(132, 134, 7) 0%, rgb(178, 180, 102) 100%); 
+}
+
+.resbg8{
+    background: rgb(185,185,185);
+    background: linear-gradient(-60deg, rgb(3, 101, 205) 0%, rgb(21, 13, 83) 100%); 
 }
 
 .resholder{
