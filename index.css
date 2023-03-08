@@ -344,17 +344,19 @@ h1{
 
 .resbg{
     background-color:blue;
-    top:100%;
+    top:0%;
+    left:96%;
     width:100%;
     height:100%;
     position: absolute;
     z-index:0;
-    transition: 0.5s;
     border-radius:8px;
+    transition: 0.5s;
 }
 
 .res:hover .resbg{
-    top:0%;
+    left:0%;
+    border-radius:8px;
     transition: 0.5s;
 }
 
@@ -498,6 +500,7 @@ background: linear-gradient(60deg, rgba(0,33,142,1) 0%, rgba(14,248,255,1) 100%)
     right:20px;
     position:fixed;
     color:white;
+    z-index:1000000000000000000000000000000000000;
     font-family: ginto;
   }
 
