@@ -59,11 +59,14 @@
     .intro2{
         left:50%;
         transform: translate(-50%,0);
-        height:100px;
+        height:80px;
+        width:100%;
         top:-10px;
+        background-color: #12121291;
+        backdrop-filter: blur(8px);
     }
     .intro3{
-        z-index:100000000000000000000000000;
+        z-index:1000000;
     }
     .firstone2{
         font-size: 40px;
@@ -228,28 +231,31 @@ transition: 0.5s;
     display:none;
   }
 
-  .navbar{
-    width:100%;
-    top:140px;
-    left:0;
-    align-items: center;
-  }
-
   .intro3{
     left:50%;
     transform: translate(-50%,0);
-    width:300px;
-    top:0;
+    height:80px;
+    width:100%;
+    top:-10px;
+    background-color: #12121291;
+    backdrop-filter: blur(8px);
   }
 
   .firstone3{
-        text-align: center;
-        left:0;
-        position: absolute;
-        animation-name:godown;
-        animation-duration: 0.5s;
-        animation-delay: 4s;
-        animation-fill-mode: forwards;
+    font-size: 40px;
+    transform:translate(0,0);
+    left:15px;
+    top:0;
+    position: absolute;
+    animation-name:none;
+    animation-duration: 0.5s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards
+  }
+
+  .Esquemasholder{
+    top:70px;
+    position: absolute;
   }
 
   .itineraries{
@@ -285,6 +291,45 @@ transition: 0.5s;
 
 .hero{
     display:none;
+}
+
+.navbar{
+    top:27px;
+    left:218px;
+    width:50%;
+    overflow: scroll;
+    position:fixed;
+    z-index: 10000000000000000000000000000;
+}
+
+.element{
+    font-size: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.backhome{
+    top:70px;
+    left:0;
+    width:100%;
+    position: fixed;
+    text-align: center;
+
+    color:white;
+    font-family: gintobold;
+    animation-name: slideup;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    display:none;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: #12121297;
+    backdrop-filter: blur(8px);
+    border-radius: 0px;
+    z-index: 1000000;
 }
 
 
