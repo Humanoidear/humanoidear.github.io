@@ -41,6 +41,9 @@
        bottom:100%;
        transition: 0.5s;
     }
+    .itnname{
+        font-size:205%;
+    }
     .itninfo{
         display:none;
     }
