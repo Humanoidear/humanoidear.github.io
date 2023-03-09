@@ -74,3 +74,9 @@ h1{
     z-index: 1;
     transition: 0.5s;
   }
+
+  @media (max-width: 800px) {
+    .intro2{
+        background-color: #f8f1f191;
+    }
+  }

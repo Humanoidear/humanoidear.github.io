@@ -427,15 +427,13 @@ background: linear-gradient(60deg, rgba(0,33,142,1) 0%, rgba(14,248,255,1) 100%)
     font-family: gintobold;
     font-size: 30px;
     color:white;
-    background-color: #1d1d1d; 
+    background-color: #222222; 
     text-decoration: none;
     transition: 0.5s;
 }
 
 .tronca:hover{
-    width: calc(100% - 4px);
-    transform: translate(0px, -5px);
-    transition: 0.5s;
+    background-color: #1d1d1d; 
 }
 
 .res:hover{
