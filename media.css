@@ -8,23 +8,24 @@
     .cube{
         width:110%;
         rotate:-2deg;
-        animation-name:goup;
+        animation-name:none;
         animation-duration: 0.5s;
         animation-delay: 4s;
         animation-fill-mode: forwards;
     }   
     .main{
-        top:80%;
+        top:0%;
         width:100%;
         left:0;
-        height:85%;
-        transform:translate(0%,20%);
-        animation-name:goup2;
+        height:89%;
+        border-radius: 8px;
+        transform:translate(0%,10%);
+        animation-name:none;
         }
 
     .itinerary{
         position: relative;
-        top:0;
+        top:-30px;
         display:block;
         width:100%;
     }
@@ -55,28 +56,29 @@
     .intro2{
         left:50%;
         transform: translate(-50%,0);
-        top:0;
-        position:absoltue;
+        height:100px;
+        top:-10px;
     }
     .intro3{
         z-index:100000000000000000000000000;
     }
     .firstone2{
         font-size: 40px;
-        text-align: center;
-        left:0;
+        transform:translate(0,0);
+        left:15px;
+        top:0;
         position: absolute;
-        animation-name:godown;
+        animation-name:none;
         animation-duration: 0.5s;
         animation-delay: 4s;
         animation-fill-mode: forwards;
     }
     .copyright{
-        animation-name: disappear;
+        animation-name: none;
+        position:absolute;
         animation-duration: 0.5s;
         animation-fill-mode: forwards;
-        animation-delay: 4s;
-        width:100%;
+        animation-delay: 4s
     }
 
     @keyframes disappear {
@@ -92,10 +94,10 @@
 
     @keyframes goup {
         0%{
-            transform: translate(0%, 20%);
+            transform: translate(0%, 0%);
         }
         100%{
-            transform: translate(0%, -83%);
+            transform: translate(0%, 0%);
         }
     }
 
@@ -246,6 +248,41 @@ transition: 0.5s;
         animation-delay: 4s;
         animation-fill-mode: forwards;
   }
+
+  .itineraries{
+    gap:10px;
+  }
+
+  .itn:nth-child(1):hover .itnname{
+    bottom:15%;
+    transition:0.5s;
+}
+
+.itn:nth-child(2):hover .itnname{
+    bottom:15%;
+    transition:0.5s;
+}
+
+.itn:nth-child(3):hover .itnname{
+    bottom:15%;
+    transition:0.5s;
+}
+
+.itn:nth-child(4):hover .itnname{
+    bottom:15%;
+    transition:0.5s;
+}
+
+.donate{
+    font-size: 10px;
+    top:5px;
+    position:absolute;
+    margin:0;
+}
+
+.hero{
+    display:none;
+}
 
 
 
