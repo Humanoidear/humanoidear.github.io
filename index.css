@@ -432,10 +432,6 @@ background: linear-gradient(60deg, rgba(0,33,142,1) 0%, rgba(14,248,255,1) 100%)
     transition: 0.5s;
 }
 
-.tronca:hover{
-    background-color: #1d1d1d; 
-}
-
 .res:hover{
     transform: translate(0px, -5px);
     border: -4px inset  white;
@@ -552,6 +548,6 @@ background: linear-gradient(60deg, rgba(0,33,142,1) 0%, rgba(14,248,255,1) 100%)
 }
 
 .donate:hover{
-    box-shadow: 0px 0px 10px #9688ec;
+    box-shadow: 0px 0px 10px #cecece;
     transition:0.5s;
 }

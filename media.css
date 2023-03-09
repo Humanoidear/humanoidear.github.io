@@ -17,10 +17,11 @@
         animation-fill-mode: forwards;
     }   
     .main{
-        top:20px;
+        top:15px;
         width:100%;
         left:0;
-        height:89%;
+        height:87%;
+        position: absolute;
         border-radius: 8px;
         transform:translate(0%,10%);
         animation-name:none;
@@ -39,6 +40,9 @@
     }
     .itnimg{
         width:200px;
+    }
+    .itn3{
+        width:160px;
     }
     .itn:hover .itnname{
        bottom:100%;

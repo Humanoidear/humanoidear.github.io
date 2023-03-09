@@ -80,3 +80,8 @@ h1{
         background-color: #f8f1f191;
     }
   }
+
+  .donate:hover{
+    box-shadow: 0px 0px 10px #282828;
+    transition:0.5s;
+}
