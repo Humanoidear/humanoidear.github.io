@@ -908,6 +908,41 @@ import {
             </div>
           </div>
 
+          <!-- Cantidad a enviar -->
+          <div class="space-y-3">
+            <label
+              for="cantidad"
+              class="block text-sm font-semibold text-gray-700 flex items-center"
+            >
+              <div class="bg-blue-50 p-2 rounded-lg mr-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 text-blue-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  ></path>
+                </svg>
+              </div>
+              Cantidad a Enviar
+            </label>
+            <input
+              type="number"
+              id="cantidad"
+              name="cantidad"
+              min="1"
+              required
+              placeholder="ej. 10"
+              class="w-full p-4 border border-gray-300 rounded-xl bg-white shadow-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all"
+            />
+          </div>
+
           <input type="hidden" name="password" value="" id="admin-password" />
 
           <div
